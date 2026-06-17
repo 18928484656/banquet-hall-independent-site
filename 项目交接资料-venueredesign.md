@@ -248,22 +248,30 @@ app/api/inquiry/route.js
 
 重要注意：
 
-询盘表单发送邮件需要在 Vercel 环境变量中配置 QQ 邮箱 SMTP 授权码。
+询盘表单邮件发送功能已在 Vercel 配置并测试通过。
 
-需要配置的环境变量：
+配置与验证记录：
+
+- 2026-06-18 已在 Vercel Environment Variables 配置 QQ 邮箱 SMTP。
+- `SMTP_HOST`、`SMTP_PORT`、`SMTP_PASS` 已用于 Production 和 Preview 环境。
+- `SMTP_PASS` 只保存在 Vercel 环境变量里，不写入代码、不写入 GitHub、不写入文档。
+- 已通过正式域名接口 `https://www.venueredesign.com/api/inquiry` 提交测试询盘。
+- 接口返回 `{"ok":true}`。
+- 已在 QQ 邮箱确认收到测试邮件，标题为 `New Banquet Hall Inquiry - Codex Test Lead - China`。
+
+当前环境变量配置方式：
 
 ```text
 SMTP_HOST=smtp.qq.com
 SMTP_PORT=465
-SMTP_USER=347748243@qq.com
-SMTP_PASS=QQ邮箱SMTP授权码
-MAIL_FROM=347748243@qq.com
-MAIL_TO=347748243@qq.com
+SMTP_PASS=<只保存在 Vercel 的 QQ 邮箱 SMTP 授权码>
 ```
 
-注意：`SMTP_PASS` 不是 QQ 邮箱登录密码，而是 QQ 邮箱后台生成的 SMTP 授权码。
+代码默认使用 `347748243@qq.com` 作为发件邮箱和收件邮箱，因此当前 Vercel 只需要保留以上 SMTP 关键配置即可。后续如需改成企业邮箱，可再增加 `SMTP_USER`、`MAIL_FROM`、`MAIL_TO`。
 
-如果没有配置 `SMTP_PASS`，网站表单会提示：
+注意：`SMTP_PASS` 不是 QQ 邮箱登录密码，而是 QQ 邮箱后台生成的 SMTP 授权码。如果 QQ 邮箱后台关闭 SMTP 服务、撤销授权码或更换密码导致授权码失效，需要重新生成授权码并更新 Vercel 的 `SMTP_PASS`。
+
+如果未来 `SMTP_PASS` 缺失或失效，网站表单会提示：
 
 ```text
 Email service is not configured yet.
@@ -363,7 +371,6 @@ GitHub 仓库：https://github.com/18928484656/banquet-hall-independent-site
 
 高优先级：
 
-- 在 Vercel 配置 QQ 邮箱 SMTP 授权码，完成询盘邮件真实发送测试。
 - 等 DNS 全球缓存刷新后，确认 `https://venueredesign.com` 和 `https://www.venueredesign.com` 都正常打开。
 - 在 Vercel Domains 页面确认两个正式域名变成 Valid Configuration。
 
@@ -387,4 +394,3 @@ GitHub 仓库：https://github.com/18928484656/banquet-hall-independent-site
 - 不要删除 `app/data/company.js`，这是全站联系方式和品牌信息来源。
 - 不要随便修改 DNS，当前记录应保持 Vercel 推荐配置。
 - 不要把 QQ 邮箱授权码写进 GitHub 代码里，只能放到 Vercel Environment Variables。
-
