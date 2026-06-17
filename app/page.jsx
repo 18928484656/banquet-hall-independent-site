@@ -94,6 +94,9 @@ export default function HomePage() {
   return (
     <main>
       <SiteHeader />
+      <h1 className="visually-hidden">
+        DINGSHENG Luxury Banquet Hall Design, Procurement and Global EPC Installation
+      </h1>
 
       <SoundHeroVideo />
 
