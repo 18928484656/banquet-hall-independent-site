@@ -1,7 +1,6 @@
 import Image from "next/image";
 import {
   ArrowRight,
-  BadgeCheck,
   Building2,
   CheckCircle2,
   ChevronRight,
@@ -16,6 +15,7 @@ import {
   MessageCircle,
   Wand2
 } from "lucide-react";
+import InquiryForm from "./inquiry/InquiryForm";
 import SiteHeader from "./components/SiteHeader";
 import SoundHeroVideo from "./components/SoundHeroVideo";
 import { caseStudies, markets } from "./data/site";
@@ -308,40 +308,7 @@ export default function HomePage() {
             </a>
           </div>
         </div>
-        <form className="inquiry-form">
-          <label>
-            Name
-            <input type="text" name="name" placeholder="Your name" required />
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" placeholder="name@company.com" required />
-          </label>
-          <label>
-            Country / Region
-            <input type="text" name="country" placeholder="Malaysia, UAE, Saudi Arabia..." required />
-          </label>
-          <label>
-            Project Type
-            <select name="projectType" defaultValue="" required>
-              <option value="" disabled>
-                Select project type
-              </option>
-              <option>Hotel Ballroom</option>
-              <option>Wedding Banquet Hall</option>
-              <option>Event Center</option>
-              <option>EPC / Contractor Cooperation</option>
-            </select>
-          </label>
-          <label className="form-wide">
-            Project Requirement
-            <textarea name="message" placeholder="Venue size, budget range, timeline and design style..." />
-          </label>
-          <button className="btn btn-primary form-wide" type="submit">
-            <BadgeCheck size={18} />
-            Request Proposal
-          </button>
-        </form>
+        <InquiryForm />
       </section>
     </main>
   );

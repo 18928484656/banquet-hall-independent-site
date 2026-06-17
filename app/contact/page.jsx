@@ -1,5 +1,6 @@
 import { Building2, ExternalLink, Mail, MapPin, MessageCircle, Navigation } from "lucide-react";
 import SiteHeader from "../components/SiteHeader";
+import InquiryForm from "../inquiry/InquiryForm";
 import { company } from "../data/company";
 
 export const metadata = {
@@ -39,47 +40,9 @@ export default function ContactPage() {
             </span>
           </div>
         </div>
-        <form className="inquiry-form contact-page-form">
-          <label>
-            Name
-            <input type="text" name="name" placeholder="Your name" required />
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" placeholder="name@company.com" required />
-          </label>
-          <label>
-            WhatsApp Number
-            <input type="text" name="whatsapp" placeholder="+60 / +971 / +966 ..." required />
-          </label>
-          <label>
-            Country / Region
-            <input type="text" name="country" placeholder="Malaysia, UAE, Saudi Arabia..." required />
-          </label>
-          <label>
-            Project Type
-            <select name="projectType" defaultValue="" required>
-              <option value="" disabled>
-                Select project type
-              </option>
-              <option>New Wedding Banquet Hall</option>
-              <option>Hotel Ballroom Renovation</option>
-              <option>Lighting / AV Upgrade</option>
-              <option>EPC / Contractor Cooperation</option>
-            </select>
-          </label>
-          <label>
-            Venue Size
-            <input type="text" name="size" placeholder="e.g. 800 m2 / 30 tables" />
-          </label>
-          <label className="form-wide">
-            Project Requirement
-            <textarea name="message" placeholder="Budget range, timeline, design style, current project stage..." />
-          </label>
-          <button className="btn btn-primary form-wide" type="submit">
-            Send Project Inquiry
-          </button>
-        </form>
+        <div className="contact-page-form">
+          <InquiryForm />
+        </div>
       </section>
 
       <section className="map-section">
