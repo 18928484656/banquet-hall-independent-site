@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { CheckCircle2, Loader2, Send, TriangleAlert } from "lucide-react";
+import { CheckCircle2, Mail, Loader2, MessageCircle, Send, TriangleAlert } from "lucide-react";
+import { company } from "../data/company";
 
 const initialForm = {
   name: "",
@@ -17,6 +18,28 @@ function validEmail(value) {
 
 function validPhone(value) {
   return /^\+?[0-9\s().-]{7,24}$/.test(value.trim());
+}
+
+function createMailtoHref(form, source) {
+  const subject = encodeURIComponent(`Google Ads Banquet Hall Quote Request - ${form.name || "New Lead"}`);
+  const body = encodeURIComponent(
+    [
+      "Hello DINGSHENG team,",
+      "",
+      "I would like to request a quote for a banquet hall project.",
+      "",
+      `Name: ${form.name}`,
+      `Email: ${form.email}`,
+      `Phone: ${form.phone}`,
+      "",
+      "Message:",
+      form.message || "-",
+      "",
+      `Lead Source: ${source}`
+    ].join("\n")
+  );
+
+  return `${company.mailto}?subject=${subject}&body=${body}`;
 }
 
 export default function AdsLeadForm({ compact = false, source = "google_ads_landing" }) {
@@ -69,15 +92,21 @@ export default function AdsLeadForm({ compact = false, source = "google_ads_land
       });
 
       const result = await response.json().catch(() => ({}));
-      if (!response.ok) throw new Error(result.message || "Submit failed");
+      if (!response.ok) throw new Error(result.code || result.message || "Submit failed");
 
       setForm(initialForm);
       setErrors({});
       setStatus({ type: "success", message: "Inquiry sent. We will contact you soon." });
     } catch (error) {
+      const needsManualContact =
+        error.message === "EMAIL_NOT_CONFIGURED" || error.message === "EMAIL_SEND_FAILED";
+
       setStatus({
         type: "error",
-        message: error.message || "Submission failed. Please contact us by WhatsApp."
+        needsManualContact,
+        message: needsManualContact
+          ? "The website email channel is being configured. Please send by email or WhatsApp now."
+          : error.message || "Submission failed. Please contact us by WhatsApp."
       });
     }
   }
@@ -154,10 +183,29 @@ export default function AdsLeadForm({ compact = false, source = "google_ads_land
       </button>
 
       {status.message && (
-        <p className={`ads-form-status ${status.type}`} role="status">
-          {status.type === "success" ? <CheckCircle2 size={17} /> : <TriangleAlert size={17} />}
-          {status.message}
-        </p>
+        <div className={`ads-form-status ${status.type}`} role="status">
+          <span className="status-icon">
+            {status.type === "success" ? <CheckCircle2 size={17} /> : <TriangleAlert size={17} />}
+          </span>
+          <span>{status.message}</span>
+          {status.needsManualContact && (
+            <div className="form-fallback-actions">
+              <a className="mini-contact-button" href={createMailtoHref(form, source)}>
+                <Mail size={15} />
+                Email
+              </a>
+              <a
+                className="mini-contact-button mini-contact-button-whatsapp"
+                href={company.whatsappLeadHref}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <MessageCircle size={15} />
+                WhatsApp
+              </a>
+            </div>
+          )}
+        </div>
       )}
     </form>
   );

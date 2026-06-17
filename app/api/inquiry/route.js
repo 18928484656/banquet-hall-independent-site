@@ -178,12 +178,19 @@ export async function POST(request) {
     return NextResponse.json({ ok: true });
   } catch (error) {
     console.error("Inquiry email error:", error);
+    const emailNotConfigured = error.message?.includes("SMTP_PASS");
+
     return NextResponse.json(
       {
         ok: false,
-        message: error.message?.includes("SMTP_PASS")
+        code: emailNotConfigured ? "EMAIL_NOT_CONFIGURED" : "EMAIL_SEND_FAILED",
+        message: emailNotConfigured
           ? "Email service is not configured yet."
-          : "Unable to send inquiry email."
+          : "Unable to send inquiry email.",
+        fallback: {
+          email: company.email,
+          whatsapp: company.whatsappLeadHref
+        }
       },
       { status: 500 }
     );

@@ -1,7 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { AlertCircle, CheckCircle2, Loader2, Send } from "lucide-react";
+import { AlertCircle, CheckCircle2, Mail, Loader2, MessageCircle, Send } from "lucide-react";
+import { company } from "../data/company";
 
 const initialForm = {
   name: "",
@@ -26,6 +27,31 @@ function validateEmail(email) {
 
 function validatePhone(phone) {
   return /^\+?[0-9\s().-]{7,24}$/.test(phone.trim());
+}
+
+function createMailtoHref(form) {
+  const subject = encodeURIComponent(`Banquet Hall Project Inquiry - ${form.name || "New Lead"}`);
+  const body = encodeURIComponent(
+    [
+      "Hello DINGSHENG team,",
+      "",
+      "I am interested in your banquet hall design and EPC solution. Please contact me.",
+      "",
+      `Name: ${form.name}`,
+      `Email: ${form.email}`,
+      `Phone / WhatsApp: ${form.phone}`,
+      `Company: ${form.company || "-"}`,
+      `Country / Region: ${form.country || "-"}`,
+      `Project Requirement: ${form.requirement || "-"}`,
+      "",
+      "Message:",
+      form.message || "-",
+      "",
+      `Website Page: ${typeof window !== "undefined" ? window.location.href : company.website}`
+    ].join("\n")
+  );
+
+  return `${company.mailto}?subject=${subject}&body=${body}`;
 }
 
 export default function InquiryForm() {
@@ -90,8 +116,10 @@ export default function InquiryForm() {
         body: JSON.stringify(form)
       });
 
+      const result = await response.json().catch(() => ({}));
+
       if (!response.ok) {
-        throw new Error("Request failed");
+        throw new Error(result.code || result.message || "Request failed");
       }
 
       setForm(initialForm);
@@ -100,10 +128,16 @@ export default function InquiryForm() {
         type: "success",
         message: "Submitted successfully. Our project consultant will contact you soon."
       });
-    } catch {
+    } catch (error) {
+      const needsManualContact =
+        error.message === "EMAIL_NOT_CONFIGURED" || error.message === "EMAIL_SEND_FAILED";
+
       setStatus({
         type: "error",
-        message: "Submission failed. Please email us directly or try again."
+        needsManualContact,
+        message: needsManualContact
+          ? "The website email channel is being configured. Please send this inquiry by email or WhatsApp now."
+          : "Submission failed. Please email us directly or try again."
       });
     }
   }
@@ -226,10 +260,29 @@ export default function InquiryForm() {
           {isSubmitting ? "Submitting..." : "Submit Project Inquiry"}
         </button>
         {status.message && (
-          <p className={`form-status ${status.type}`} role="status">
-            {status.type === "success" ? <CheckCircle2 size={18} /> : <AlertCircle size={18} />}
-            {status.message}
-          </p>
+          <div className={`form-status ${status.type}`} role="status">
+            <span className="status-icon">
+              {status.type === "success" ? <CheckCircle2 size={18} /> : <AlertCircle size={18} />}
+            </span>
+            <span>{status.message}</span>
+            {status.needsManualContact && (
+              <div className="form-fallback-actions">
+                <a className="mini-contact-button" href={createMailtoHref(form)}>
+                  <Mail size={16} />
+                  Send Email
+                </a>
+                <a
+                  className="mini-contact-button mini-contact-button-whatsapp"
+                  href={company.whatsappLeadHref}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <MessageCircle size={16} />
+                  WhatsApp
+                </a>
+              </div>
+            )}
+          </div>
         )}
       </div>
     </form>
