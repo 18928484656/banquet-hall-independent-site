@@ -1,0 +1,43 @@
+
+## Sheet: Sheet1
+
+Keyword | Chinese Meaning | Keyword Type | Search Intent | Target Page | SEO Priority | Notes
+banquet hall design | 宴会厅设计 | Core Service | Commercial | /services/banquet-hall-design | High | Homepage and main service keyword
+banquet hall construction | 宴会厅施工 | Core Service | Commercial | /services/banquet-hall-construction | High | Good for project clients
+banquet hall design and construction | 宴会厅设计施工 | Core Service | Transactional | /services/banquet-hall-design-construction | High | Best match for your one-stop service
+banquet hall EPC solution | 宴会厅EPC解决方案 | Core Service | Transactional | /services/banquet-hall-epc-solution | High | Very suitable for engineering and project delivery
+turnkey banquet hall solution | 宴会厅交钥匙解决方案 | Core Service | Transactional | /services/turnkey-banquet-hall-solution | High | Good for overseas project customers
+wedding banquet hall design | 婚礼宴会厅设计 | Main Product | Commercial | /services/wedding-banquet-hall-design | High | Best for wedding venue investors
+luxury banquet hall design | 豪华宴会厅设计 | Main Product | Commercial | /services/luxury-banquet-hall-design | High | Good for premium market
+hotel ballroom design | 酒店宴会厅设计 | Main Product | Commercial | /services/hotel-ballroom-design | High | Good for hotel owners
+hotel ballroom renovation | 酒店宴会厅翻新 | Renovation | Transactional | /services/hotel-ballroom-renovation | High | Strong pain point keyword
+wedding venue design | 婚礼场地设计 | Main Product | Commercial | /services/wedding-venue-design | High | Good for wedding hall customers
+wedding venue design and build | 婚礼场地设计施工 | Main Product | Transactional | /services/wedding-venue-design-build | High | High conversion keyword
+event hall design | 活动大厅设计 | Application | Commercial | /solutions/event-hall-design | Medium | Useful for event centers
+multi-function hall design | 多功能厅设计 | Application | Commercial | /solutions/multi-function-hall-design | Medium | Good for corporate and hotel venues
+conference hall design | 会议厅设计 | Application | Commercial | /solutions/conference-hall-design | Medium | Can expand business scope
+banquet hall interior design | 宴会厅室内设计 | Design Service | Commercial | /services/banquet-hall-interior-design | High | Important design keyword
+ballroom interior design | 宴会厅室内设计 | Design Service | Commercial | /services/ballroom-interior-design | Medium | Good supporting keyword
+banquet hall ceiling design | 宴会厅天花设计 | Design Detail | Commercial | /blog/banquet-hall-ceiling-design | Medium | Good for blog and design detail page
+wedding hall lighting design | 婚礼厅灯光设计 | Lighting / AV | Commercial | /services/wedding-hall-lighting-design | Medium | Good visual keyword
+banquet hall lighting and AV system | 宴会厅灯光音响系统 | Lighting / AV | Commercial | /services/banquet-hall-lighting-av-system | Medium | Good for system integration
+banquet hall stage design | 宴会厅舞台设计 | Design Detail | Commercial | /blog/banquet-hall-stage-design | Medium | Good for blog and service detail
+banquet hall design company | 宴会厅设计公司 | Commercial | Commercial | /services/banquet-hall-design-company | High | Good buyer-intent keyword
+wedding venue design company | 婚礼场地设计公司 | Commercial | Commercial | /services/wedding-venue-design-company | High | Good for overseas customers
+ballroom renovation contractor | 宴会厅翻新承包商 | Contractor | Transactional | /services/ballroom-renovation-contractor | High | Strong conversion keyword
+banquet hall contractor | 宴会厅承包商 | Contractor | Transactional | /services/banquet-hall-contractor | Medium | Good for EPC positioning
+banquet hall design Malaysia | 马来西亚宴会厅设计 | Location | Commercial | /markets/banquet-hall-design-malaysia | High | Key target market
+wedding venue design Malaysia | 马来西亚婚礼场地设计 | Location | Commercial | /markets/wedding-venue-design-malaysia | High | Key target market
+hotel ballroom renovation Malaysia | 马来西亚酒店宴会厅翻新 | Location | Transactional | /markets/hotel-ballroom-renovation-malaysia | High | High-value market page
+banquet hall design Singapore | 新加坡宴会厅设计 | Location | Commercial | /markets/banquet-hall-design-singapore | Medium | Good Southeast Asia page
+banquet hall construction UAE | 阿联酋宴会厅施工 | Location | Transactional | /markets/banquet-hall-construction-uae | High | Middle East market
+wedding hall design Saudi Arabia | 沙特婚礼厅设计 | Location | Commercial | /markets/wedding-hall-design-saudi-arabia | High | Middle East market
+event hall design Qatar | 卡塔尔活动大厅设计 | Location | Commercial | /markets/event-hall-design-qatar | Medium | Middle East market
+banquet hall EPC contractor Kazakhstan | 哈萨克斯坦宴会厅EPC承包商 | Location | Transactional | /markets/banquet-hall-epc-kazakhstan | Medium | Central Asia market
+wedding hall design Uzbekistan | 乌兹别克斯坦婚礼厅设计 | Location | Commercial | /markets/wedding-hall-design-uzbekistan | Medium | Central Asia market
+banquet hall design cost | 宴会厅设计费用 | Cost / Blog | Informational | /blog/banquet-hall-design-cost | High | Good SEO traffic topic
+hotel ballroom renovation cost | 酒店宴会厅翻新费用 | Cost / Blog | Informational | /blog/hotel-ballroom-renovation-cost | High | Strong buyer pain point
+how to build a banquet hall | 如何建造宴会厅 | Blog | Informational | /blog/how-to-build-a-banquet-hall | Medium | Educational SEO topic
+how to renovate an old ballroom | 如何翻新旧宴会厅 | Blog | Informational | /blog/how-to-renovate-old-ballroom | Medium | Good for hotel owners
+banquet hall layout ideas | 宴会厅布局方案 | Blog | Informational | /blog/banquet-hall-layout-ideas | Medium | Good content keyword
+luxury wedding hall design ideas | 豪华婚礼厅设计灵感 | Blog | Informational | /blog/luxury-wedding-hall-design-ideas | Medium | Good for image-rich SEO

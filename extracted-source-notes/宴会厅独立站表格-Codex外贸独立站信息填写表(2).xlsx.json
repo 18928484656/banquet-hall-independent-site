@@ -1,0 +1,1149 @@
+{
+  "使用说明": [
+    [
+      "黑方 Codex 外贸独立站课前信息填写表"
+    ],
+    [
+      "请学员在课前完整填写，并上传品牌、产品、图片、画册等资料。"
+    ],
+    [
+      "使用对象",
+      "外贸老板、业务员、运营、建站负责人"
+    ],
+    [
+      "使用目的",
+      "帮助 Codex 快速理解公司、产品、目标客户、网站结构和视觉风格，减少 AI 建站跑偏。"
+    ],
+    [
+      "填写原则",
+      "能具体就不要模糊；能给示例就不要只写形容词；不能确定的地方先写“待补充”。"
+    ],
+    [
+      "资料上传",
+      "填写表是建站指令，画册/图片/Logo 是附件补充，二者都要准备。"
+    ],
+    [
+      "建议提交格式",
+      "本 Excel + Logo + 产品画册 + 产品图片 + 工厂/证书/案例图片 + 联系方式。"
+    ],
+    [
+      "文件命名建议",
+      "公司英文名-Codex独立站资料包-提交日期，例如 ALEO-Codex-Website-Brief-2026-05-26。"
+    ],
+    [
+      "工作表",
+      "是否必填",
+      "用途",
+      "建议填写人",
+      "注意事项",
+      "完成状态"
+    ],
+    [
+      "01-公司基础信息",
+      "必填",
+      "让 Codex 理解企业是谁、做什么、优势是什么",
+      "老板/业务负责人",
+      "不要只写“质量好”，要写具体优势"
+    ],
+    [
+      "02-网站目标",
+      "必填",
+      "确定网站是展示型、询盘型、SEO型还是广告落地页",
+      "老板/运营",
+      "网站目标决定页面结构和按钮"
+    ],
+    [
+      "03-产品信息",
+      "必填",
+      "确定主推产品、分类、参数和详情页规则",
+      "产品/业务",
+      "产品名称尽量用英文"
+    ],
+    [
+      "04-首页模块",
+      "必填",
+      "确定首页要展示哪些板块",
+      "运营/老板",
+      "首页不要堆太多内容，主次要清楚"
+    ],
+    [
+      "05-页面结构",
+      "必填",
+      "确定网站导航和页面清单",
+      "运营/建站负责人",
+      "不需要的页面可填“否”"
+    ],
+    [
+      "06-视觉风格",
+      "必填",
+      "确定颜色、风格、参考网站和禁忌风格",
+      "老板/设计",
+      "最好提供参考网站链接"
+    ],
+    [
+      "07-联系方式表单",
+      "必填",
+      "确定询盘入口和收件信息",
+      "业务/老板",
+      "表单收件邮箱必须准确"
+    ],
+    [
+      "08-AI素材需求",
+      "选填",
+      "决定课堂是否需要用 AI 生成图/视频素材",
+      "运营/设计",
+      "需要真实产品图时必须上传参考图"
+    ],
+    [
+      "09-上传资料清单",
+      "必填",
+      "检查资料是否准备完整",
+      "学员本人",
+      "按文件夹整理"
+    ],
+    [
+      "10-Codex说明文件",
+      "自动整理",
+      "用于粘贴到 PROJECT-BRIEF.md / AGENTS.md",
+      "老师/学员",
+      "根据前面信息整理后给 Codex 使用"
+    ]
+  ],
+  "下拉选项": [
+    [
+      "是否需要",
+      "是否必填",
+      "网站目的",
+      "目标客户",
+      "网站语言",
+      "风格",
+      "动画效果",
+      "完成状态"
+    ],
+    [
+      "Need Status",
+      "Required Status",
+      "Website Purpose",
+      "Target Customer",
+      "Website Language",
+      "Website Style",
+      "Animation Effect",
+      "Completion Status"
+    ],
+    [
+      "Yes",
+      "Required",
+      "Show Company Strength",
+      "Hotel Owners",
+      "English",
+      "High-end",
+      "No Animation",
+      "Not Started"
+    ],
+    [
+      "No",
+      "Optional",
+      "Generate Inquiries",
+      "Banquet Hall Investors",
+      "Chinese",
+      "Industrial",
+      "Light Animation",
+      "In Progress"
+    ],
+    [
+      "To Be Confirmed",
+      "To Be Completed",
+      "Advertising Landing Page",
+      "Wedding Venue Operators",
+      "Arabic",
+      "Technology Style",
+      "Medium Animation",
+      "Completed"
+    ],
+    [
+      null,
+      null,
+      "SEO Traffic Acquisition",
+      "Contractors",
+      "Russian",
+      "Minimalist",
+      "Strong Animation",
+      "To Be Completed"
+    ],
+    [
+      null,
+      null,
+      "Brand Endorsement",
+      "EPC Companies",
+      "Malay",
+      "Professional"
+    ],
+    [
+      null,
+      null,
+      "Agency Recruitment",
+      "Interior Design Firms",
+      "French",
+      "Young"
+    ],
+    [
+      null,
+      null,
+      "Catalog Download",
+      "Event Center Developers",
+      "Portuguese",
+      "Eco-friendly"
+    ],
+    [
+      null,
+      null,
+      "Project Case Display",
+      "Hotel Groups",
+      "Multilingual",
+      "Luxury"
+    ],
+    [
+      null,
+      null,
+      "WhatsApp Lead Conversion",
+      "Real Estate Developers"
+    ],
+    [
+      null,
+      null,
+      "Build Customer Trust",
+      "Government / Institutions"
+    ]
+  ],
+  "01-公司基础信息": [
+    [
+      "01 公司基础信息"
+    ],
+    [
+      "用于让 Codex 理解企业身份、产品范围、目标市场和核心优势。"
+    ],
+    [
+      "信息项",
+      "填写内容",
+      "填写示例",
+      "重要程度",
+      "备注"
+    ],
+    [
+      "公司英文名称",
+      "LEDUSS",
+      "Aleo Power Equipment Co., Ltd.",
+      "必填",
+      "用于网站页脚、About页面、SEO"
+    ],
+    [
+      "公司中文名称",
+      null,
+      "江苏莱奥动力设备有限公司",
+      "选填"
+    ],
+    [
+      "品牌名称",
+      "LEDUSS",
+      "ALEO POWER",
+      "必填",
+      "Logo、导航、首页品牌露出"
+    ],
+    [
+      "公司成立年份",
+      2016,
+      "2006",
+      "选填"
+    ],
+    [
+      "工厂面积",
+      "30,000+ m²",
+      "30,000+ m²",
+      "选填",
+      "没有可写待补充"
+    ],
+    [
+      "员工人数",
+      "50+ elite team members",
+      "40+ elite team members",
+      "选填"
+    ],
+    [
+      "公司定位",
+      "Global Banquet Hall EPC Solution Provider",
+      "Source manufacturer / OEM & ODM solution provider",
+      "必填",
+      "源头厂家/贸易公司/解决方案商"
+    ],
+    [
+      "主要产品",
+      "Banquet Hall Design & Construction Solutions",
+      "Diesel generator sets, gas generator sets",
+      "必填",
+      "英文填写优先"
+    ],
+    [
+      "主要市场",
+      "Malaysia, Southeast Asia, the Middle East, and Central Asia",
+      "Middle East, Africa, South America",
+      "必填"
+    ],
+    [
+      "目标客户类型",
+      "Hotel owners, banquet hall investors, wedding venue operators, event center developers, contractors, and EPC companies",
+      "Importers, contractors, EPC companies, dealers",
+      "必填"
+    ],
+    [
+      "核心优势1",
+      "Customized Luxury Banquet Hall Design",
+      "OEM/ODM customization",
+      "必填",
+      "建议写3-5条"
+    ],
+    [
+      "核心优势2",
+      "One-stop Design, Procurement & Construction",
+      "Global delivery and project support",
+      "必填"
+    ],
+    [
+      "核心优势3",
+      "Global Project Delivery & Cost Control",
+      "Industrial-grade quality control",
+      "必填"
+    ],
+    [
+      "现有官网",
+      "venueredesign.com",
+      "https://yourdomain.com",
+      "选填"
+    ],
+    [
+      "参考同行网站1",
+      "https://www.grammywedding.com/",
+      "https://example.com",
+      "选填"
+    ],
+    [
+      "参考同行网站2",
+      "https://www.tangshidai.com/",
+      "",
+      "选填"
+    ]
+  ],
+  "02-网站目标": [
+    [
+      "02 网站目标"
+    ],
+    [
+      "网站目标决定页面结构、文案重点和转化按钮。"
+    ],
+    [
+      "信息项",
+      "填写内容",
+      "填写示例",
+      "重要程度",
+      "备注"
+    ],
+    [
+      "网站主要目的",
+      "Generate qualified inquiries, showcase project strength, build trust, support SEO, and convert visitors into WhatsApp leads.",
+      "获取询盘 / 展示实力 / SEO获客 / 广告落地页",
+      "必填",
+      "可多选，用逗号隔开"
+    ],
+    [
+      "目标客户",
+      "Hotel owners, banquet hall investors, wedding venue operators, event center developers, contractors, EPC companies, architects, and design firms.",
+      "进口商、经销商、工程商、EPC公司",
+      "必填"
+    ],
+    [
+      "主要推广国家/地区",
+      "Malaysia, Southeast Asia, the Middle East, and Central Asia. Key markets include Malaysia, Singapore, Indonesia, Thailand, Vietnam, UAE, Saudi Arabia, Qatar, Kazakhstan, and Uzbekistan.",
+      "UAE, Saudi Arabia, Nigeria, South Africa",
+      "必填",
+      "国家越明确越好"
+    ],
+    [
+      "网站语言",
+      "English first. Chinese can be used for internal management. Future versions can add Arabic, Malay, and Russian for regional markets.",
+      "English",
+      "必填",
+      "多语言请写清楚优先级"
+    ],
+    [
+      "客户看完后希望做什么",
+      "Contact us via WhatsApp, submit an inquiry, request a design proposal, get a project quotation, or download our company catalog.",
+      "Submit inquiry / WhatsApp / Download catalog",
+      "必填"
+    ],
+    [
+      "最重要转化按钮",
+      "WhatsApp / Get a Quote / Request Design Proposal / Download Catalog",
+      "Get a Quote",
+      "必填",
+      "例如 Contact Us / Get a Quote / WhatsApp"
+    ],
+    [
+      "是否用于广告投放",
+      "Yes. The website will be used as a landing page for Facebook, Instagram, TikTok, and Google Ads campaigns.",
+      "是",
+      "选填",
+      "如果是，页面需要更强转化"
+    ],
+    [
+      "是否用于SEO",
+      "Yes. The website should be optimized for banquet hall design, wedding venue design, banquet hall construction, hotel ballroom design, and EPC solution keywords.",
+      "是",
+      "选填",
+      "如果是，需要Blog和关键词布局"
+    ],
+    [
+      "是否需要下载画册",
+      "Yes. Visitors should be able to download the company profile, project catalog, design cases, and service brochure.",
+      "是",
+      "选填"
+    ],
+    [
+      "询盘质量要求",
+      "Collect customer name, country, project type, venue size, budget range, project timeline, email, and WhatsApp number. Priority leads should be hotel owners, investors, and project decision-makers.",
+      "收集国家、功率、用途、邮箱、WhatsApp",
+      "必填",
+      "决定表单字段"
+    ]
+  ],
+  "03-产品信息": [
+    [
+      "03 产品信息"
+    ],
+    [
+      "用于生成产品列表页和产品详情页。英文名称、卖点和参数越清楚，页面越准确。"
+    ],
+    [
+      "产品分类/产品名",
+      "英文名称",
+      "是否主推",
+      "核心卖点",
+      "是否有参数表",
+      "是否需要详情页",
+      "图片文件名",
+      "备注"
+    ],
+    [
+      "产品分类/产品名",
+      "英文名称",
+      "是否主推",
+      "核心卖点",
+      "是否有参数表",
+      "是否需要详情页",
+      "图片文件名",
+      "备注"
+    ],
+    [
+      "产品分类1",
+      "Banquet Hall Design & Planning",
+      "Yes",
+      "Custom luxury banquet hall concept design, layout planning, theme creation, ceiling design, lighting planning, stage planning, guest flow optimization, and budget control.",
+      "Yes",
+      "Yes",
+      "banquet-hall-design-planning.jpg",
+      "Core service category for SEO and lead generation."
+    ],
+    [
+      "产品分类2",
+      "Banquet Hall Construction & Interior Fit-out",
+      "Yes",
+      "One-stop construction service covering ceiling, wall, flooring, stage, lighting, furniture, materials procurement, site coordination, installation, and quality control.",
+      "Yes",
+      "Yes",
+      "banquet-hall-construction-fitout.jpg",
+      "Important for clients who need real project execution, not only design."
+    ],
+    [
+      "产品分类3",
+      "Banquet Hall Lighting, AV & Smart System Integration",
+      "Yes",
+      "Integrated lighting, LED screen, sound, stage effect, control system, and immersive visual scene solutions for luxury weddings, banquets, and events.",
+      "Yes",
+      "Yes",
+      "banquet-hall-lighting-av-system.jpg",
+      "Helps show strong visual impact and high-end project capability."
+    ],
+    [
+      "主推产品1",
+      "Luxury Wedding Banquet Hall Design",
+      "Yes",
+      "High-end wedding banquet hall design with customized themes, luxury ceiling features, romantic lighting scenes, photo-worthy spaces, and strong visual impact for premium venues.",
+      "Yes",
+      "Yes",
+      "luxury-wedding-banquet-hall-design.jpg",
+      "Main product for hotel owners and wedding venue investors."
+    ],
+    [
+      "主推产品2",
+      "Hotel Ballroom Renovation & Upgrade",
+      "Yes",
+      "Upgrade old hotel ballrooms into modern, profitable, multi-functional event spaces with better layout, lighting, stage design, ceiling style, and guest experience.",
+      "Yes",
+      "Yes",
+      "hotel-ballroom-renovation-upgrade.jpg",
+      "Best for hotels that already have old banquet halls and need renovation."
+    ],
+    [
+      "主推产品3",
+      "Themed Banquet Hall EPC Solution",
+      "Yes",
+      "Full EPC service from concept design, engineering drawings, material procurement, factory production, construction coordination, installation guidance, and final project delivery.",
+      "Yes",
+      "Yes",
+      "themed-banquet-hall-epc-solution.jpg",
+      "Best expression for one-stop design, procurement, and construction service."
+    ],
+    [
+      "认证资质",
+      "Project Compliance & Quality Documentation",
+      "No",
+      "Support project quality documents, material certificates, shop drawings, installation records, fire-safety coordination, and local compliance support according to each country’s requirements.",
+      "Yes",
+      "Yes",
+      "project-compliance-quality-documents.jpg",
+      "Only display real certificates and verified project documents. Do not show fake certificates."
+    ]
+  ],
+  "04-首页模块": [
+    [
+      "04 首页模块"
+    ],
+    [
+      "首页是外贸网站的第一印象，建议保留核心转化模块。"
+    ],
+    [
+      "首页模块",
+      "是否需要",
+      "主要内容",
+      "建议图片/资料",
+      "优先级",
+      "备注"
+    ],
+    [
+      "Hero Banner / Hero Section",
+      "Yes",
+      "Full-screen cinematic banquet hall video, main headline, subheadline, WhatsApp button, Get a Quote button, and key selling points.",
+      "Main project video, luxury banquet hall renderings, hero background image",
+      "High",
+      "Use video-first design to create a strong visual impact and attract hotel owners immediately."
+    ],
+    [
+      "Product Categories",
+      "Yes",
+      "Banquet hall design, construction & interior fit-out, lighting/AV system integration, hotel ballroom renovation, and themed EPC solutions.",
+      "Service category images, 3D renderings, project photos",
+      "High",
+      "Show clear service categories so visitors can quickly understand what we offer."
+    ],
+    [
+      "Company Advantages",
+      "Yes",
+      "Customized luxury design, one-stop design/procurement/construction, global project delivery, cost control, experienced Chinese engineering team, and turnkey support.",
+      "Icons, team photos, project process images",
+      "High",
+      "Highlight why customers should trust us instead of local small contractors."
+    ],
+    [
+      "Application Scenarios",
+      "Yes",
+      "Wedding banquet halls, hotel ballrooms, event centers, multi-function halls, conference halls, corporate event venues, and luxury celebration spaces.",
+      "Scene photos, banquet hall videos, wedding venue images",
+      "Medium",
+      "Help customers understand where our solutions can be used."
+    ],
+    [
+      "Engineering & Project Capability",
+      "Yes",
+      "Design team, engineering drawings, material sourcing, factory production, site coordination, installation guidance, and quality control process.",
+      "Design drawings, factory photos, construction site photos, team photos",
+      "High",
+      "Show real project execution ability, not only design concepts."
+    ],
+    [
+      "Certifications & Compliance",
+      "Optional",
+      "Project quality documents, material certificates, construction records, fire-safety coordination, and local compliance support based on each country’s requirements.",
+      "Real certificates, material documents, project files",
+      "Medium",
+      "Only show real certificates and verified documents. Do not use fake certificates."
+    ],
+    [
+      "Project Cases",
+      "Yes",
+      "Display completed banquet hall projects by country, project type, design style, venue size, service scope, and before-after results.",
+      "Case photos, project videos, before-after images",
+      "High",
+      "If customer authorization is not available, do not show client names."
+    ],
+    [
+      "FAQ",
+      "Yes",
+      "Common questions about design process, project cost, construction timeline, overseas delivery, installation support, material selection, and cooperation model.",
+      "No image required",
+      "Medium",
+      "Use FAQ to reduce customer doubts and improve conversion rate."
+    ],
+    [
+      "Inquiry Form",
+      "Yes",
+      "Collect customer name, country, project type, venue size, budget range, project timeline, email, and WhatsApp number.",
+      "Contact form, WhatsApp button, inquiry icons",
+      "High",
+      "The form should be simple, clear, and focused on qualified project leads."
+    ],
+    [
+      "Footer",
+      "Yes",
+      "Company information, main services, quick navigation, WhatsApp, email, social media links, service markets, and copyright information.",
+      "Logo, contact information, social media icons",
+      "High",
+      "Make it easy for customers to contact us from every page."
+    ]
+  ],
+  "05-页面结构": [
+    [
+      "05 页面结构"
+    ],
+    [
+      "用于确定网站导航和页面清单。"
+    ],
+    [
+      "页面名称",
+      "英文页面名/URL",
+      "是否需要",
+      "页面目的",
+      "需要准备的内容",
+      "备注"
+    ],
+    [
+      "Home",
+      "Home / /",
+      "Yes",
+      "Build first trust, show luxury banquet hall strength, attract inquiries, and guide visitors to WhatsApp or quotation.",
+      "Logo, hero video, banquet hall project images, core services, advantages, project cases, WhatsApp button, Get a Quote button.",
+      "Homepage must use a strong video-first visual style to create a luxury and shocking first impression."
+    ],
+    [
+      "Services",
+      "Services / /services",
+      "Yes",
+      "Show our main service categories, including banquet hall design, construction, renovation, lighting, AV system, and EPC solutions.",
+      "Service category images, service descriptions, key selling points, process flow, CTA buttons.",
+      "This page should help customers quickly understand what we can provide."
+    ],
+    [
+      "Service Detail",
+      "Service Detail / /services/banquet-hall-design",
+      "Yes",
+      "Explain each service in detail and show the value of our design, procurement, construction, and project delivery.",
+      "Service images, design scope, construction scope, project process, benefits, FAQ, inquiry form.",
+      "Each core service should have its own detail page for SEO and conversion."
+    ],
+    [
+      "Solutions / Applications",
+      "Solutions / /solutions",
+      "Optional",
+      "Show where our solutions can be used, such as wedding halls, hotel ballrooms, event centers, multi-function halls, and conference halls.",
+      "Application scenario images, customer pain points, solutions, before-after examples.",
+      "Useful for helping customers match their project needs with our services."
+    ],
+    [
+      "About Us",
+      "About Us / /about",
+      "Yes",
+      "Show company background, design capability, engineering team, service markets, and one-stop project delivery strength.",
+      "Company introduction, team photos, project experience, service markets, company advantages.",
+      "This page should build trust with hotel owners and investors."
+    ],
+    [
+      "Engineering Capability",
+      "Engineering / /engineering",
+      "Yes",
+      "Prove that we can handle real project execution, not only design concepts.",
+      "Design drawings, material sourcing, factory production, site coordination, installation guidance, quality control process.",
+      "Very important for high-ticket project trust and overseas project cooperation."
+    ],
+    [
+      "Projects / Case Studies",
+      "Projects / /projects",
+      "Yes",
+      "Show completed or concept banquet hall projects by country, style, venue size, service scope, and project result.",
+      "Project photos, project videos, 3D renderings, country, project type, design style, before-after images.",
+      "If no customer authorization, do not show client names. Use project type and country instead."
+    ],
+    [
+      "Blog / SEO Articles",
+      "Blog / /blog",
+      "Optional",
+      "Support Google SEO traffic and educate customers before inquiry.",
+      "SEO keywords, article topics, design tips, renovation guides, cost guides, project planning content.",
+      "Focus on keywords like banquet hall design, wedding venue design, hotel ballroom renovation, and banquet hall construction."
+    ],
+    [
+      "Download Center",
+      "Download / /download",
+      "Optional",
+      "Allow visitors to download company profile, project catalog, design cases, and service brochure.",
+      "PDF company profile, project catalog, design case book, service brochure.",
+      "Use download forms to collect name, country, email, WhatsApp, and project requirement."
+    ],
+    [
+      "Contact Us",
+      "Contact / /contact",
+      "Yes",
+      "Collect qualified inquiries and make it easy for customers to contact us.",
+      "Contact person, email, WhatsApp, address, inquiry form, country, project type, venue size, budget range, timeline.",
+      "Keep the form simple and make WhatsApp the most important conversion button."
+    ]
+  ],
+  "06-视觉风格": [
+    [
+      "06 视觉风格"
+    ],
+    [
+      "视觉要求越明确，Codex 生成的页面越接近品牌调性。"
+    ],
+    [
+      "信息项",
+      "填写内容",
+      "填写示例",
+      "重要程度",
+      "备注"
+    ],
+    [
+      "Brand Main Colors",
+      "Deep black + champagne gold + dark navy",
+      "#0B0F1A / #D4AF37 / #111827",
+      "Required",
+      "Use a luxury black-gold visual style to create a premium banquet hall brand image."
+    ],
+    [
+      "Secondary Colors",
+      "Warm white + soft beige + metallic gold",
+      "#F8F5EF / #E8DCC8 / #C9A646",
+      "Optional",
+      "Use warm luxury colors to make the website look elegant, not cold or cheap."
+    ],
+    [
+      "Preferred Style",
+      "Luxury, cinematic, elegant, high-end, immersive, modern, professional, and visually stunning",
+      "Luxury wedding hall style, hotel ballroom style, cinematic video-first homepage",
+      "Required",
+      "The website should look like a premium banquet hall brand, not a normal decoration company."
+    ],
+    [
+      "Disliked Style",
+      "Cartoon, cheap, plastic, low-quality, cluttered, outdated, overly colorful, and template-looking designs",
+      "No cartoon icons, no cheap stock images, no low-quality AI images, no messy colors",
+      "Required",
+      "Avoid anything that makes the brand look low-end or unprofessional."
+    ],
+    [
+      "Reference Website 1",
+      "https://www.grammywedding.com/",
+      "High-end wedding banquet hall visual style",
+      "Optional",
+      "Use as reference for luxury wedding hall atmosphere and visual presentation."
+    ],
+    [
+      "Reference Website 2",
+      "https://www.xidaola.cn/",
+      "Immersive wedding hall and themed banquet venue style",
+      "Optional",
+      "Use as reference for video-driven, dramatic, and immersive banquet hall display."
+    ],
+    [
+      "Reference Website 3",
+      "https://www.topgalleria.com/",
+      "High-end one-stop wedding venue service style",
+      "Optional",
+      "Use as reference for service structure, project display, and brand trust building."
+    ],
+    [
+      "Need Dark Background",
+      "Yes",
+      "Black or dark navy background with gold highlights",
+      "Optional",
+      "Dark background can make banquet hall videos, lighting, and luxury images look more powerful."
+    ],
+    [
+      "Need Large Visual Images",
+      "Yes",
+      "Full-screen hero video, large banquet hall images, 3D renderings, and project case photos",
+      "Optional",
+      "The homepage must use large visuals to create strong impact within the first 3 seconds."
+    ],
+    [
+      "Animation Effects",
+      "Moderate",
+      "Cinematic video background, smooth fade-in, light motion, slow zoom, hover effects, and scroll reveal",
+      "Optional",
+      "Use elegant motion effects only. Do not add too many animations that slow down the website."
+    ],
+    [
+      "Font Style",
+      "Modern sans-serif + elegant serif for headlines",
+      "Headlines: Playfair Display or Cormorant Garamond; Body: Inter or Montserrat",
+      "Optional",
+      "Use elegant fonts to match luxury banquet hall positioning and keep the text easy to read."
+    ],
+    [
+      "Overall Restrictions",
+      "No fake clients, no fake certificates, no low-quality AI images, no copied competitor content, no messy layout, and no exaggerated claims",
+      "Use real project images, real design renderings, clear service process, and honest project capability",
+      "Required",
+      "The website must look trustworthy, premium, and suitable for overseas hotel owners and investors."
+    ]
+  ],
+  "07-联系方式表单": [
+    [
+      "07 联系方式与询盘表单"
+    ],
+    [
+      "用于生成 Contact 页面、页脚、WhatsApp 按钮和询盘表单。"
+    ],
+    [
+      "项目",
+      "填写内容",
+      "填写示例",
+      "是否展示在网站",
+      "备注"
+    ],
+    [
+      "Contact Person",
+      "Jay/ Project Consultant",
+      "Lucy Sun / Project Consultant",
+      "Yes",
+      "Display a real contact person to build trust with hotel owners and investors."
+    ],
+    [
+      "Contact Email",
+      "347748243@qq.com",
+      "sales@company.com",
+      "Yes",
+      "Use a real receiving email. Make sure the website inquiry form sends messages to this email."
+    ],
+    [
+      "Phone",
+      "+86 18211506520",
+      "+86 000 0000 0000",
+      "Optional",
+      "Please replace this with your full phone number in international format."
+    ],
+    [
+      "WhatsApp",
+      "+86 18211506520",
+      "+86 000 0000 0000",
+      "Yes",
+      "WhatsApp should be the most important contact channel and shown in the header, footer, and floating button."
+    ],
+    [
+      "Company Address",
+      "Building 1, First Industrial Park, Mingjinhai Industrial Area, Shiyan Subdistrict, Bao'an District, Shenzhen, Guangdong, China",
+      "City, Province, China",
+      "Yes",
+      "Use a clear English address to improve customer trust."
+    ],
+    [
+      "Facebook",
+      "https://www.facebook.com/share/1bawpfaWUe/?mibextid=wwXIfr",
+      "https://facebook.com/yourpage",
+      "Optional",
+      "Add your official Facebook Page URL after the page is ready."
+    ],
+    [
+      "LinkedIn",
+      "To be added",
+      "https://linkedin.com/company/your-company",
+      "Optional",
+      "Use LinkedIn to build B2B trust with hotel owners, investors, and contractors."
+    ],
+    [
+      "YouTube",
+      "https://youtube.com/@asdfghjasd-m9o?si=qMPXHoOqCPd5LD_n",
+      "https://youtube.com/@yourbrand",
+      "Optional",
+      "Use YouTube to display banquet hall videos, project cases, and construction process videos."
+    ],
+    [
+      "TikTok",
+      "https://www.tiktok.com/@asdfghjasd396?_r=1&_t=ZS-97G7Cztf2jU",
+      "https://tiktok.com/@yourbrand",
+      "Optional",
+      "Use TikTok to show short videos of luxury banquet hall designs and project results."
+    ],
+    [
+      "Instagram",
+      "https://www.instagram.com/hda4083?igsh=bm1mY2ZpMHo3dXUw&utm_source=qr",
+      "https://instagram.com/yourbrand",
+      "Optional",
+      "Use Instagram for luxury banquet hall images, reels, and visual brand promotion."
+    ],
+    [
+      "Form Field 1",
+      "Name",
+      "Name",
+      "Yes",
+      "Required field. Collect the customer’s name."
+    ],
+    [
+      "Form Field 2",
+      "Email",
+      "Email",
+      "Yes",
+      "Required field. Collect the customer’s email for quotation follow-up."
+    ],
+    [
+      "Form Field 3",
+      "Country",
+      "Country",
+      "Yes",
+      "Required field. Help identify the customer’s market and project location."
+    ],
+    [
+      "Form Field 4",
+      "WhatsApp Number",
+      "WhatsApp Number",
+      "Yes",
+      "Required field. This is the fastest way to follow up with overseas customers."
+    ],
+    [
+      "Form Field 5",
+      "Project Type",
+      "Hotel Ballroom / Wedding Banquet Hall / Event Center",
+      "Yes",
+      "Required field. Help understand what type of banquet hall the customer needs."
+    ]
+  ],
+  "08-AI素材需求": [
+    [
+      "08 AI 生成素材需求"
+    ],
+    [
+      "用于判断课堂是否需要生成图片、视频、图标和广告素材。"
+    ],
+    [
+      "素材类型",
+      "是否需要",
+      "用途",
+      "需要提供的参考资料",
+      "风格要求",
+      "备注"
+    ],
+    [
+      "网站 Banner 图",
+      "待定",
+      "首页首屏",
+      "Logo、产品图、参考网站",
+      "黑金科技感 / 工业风"
+    ],
+    [
+      "产品应用场景图",
+      "待定",
+      "产品页、应用场景页",
+      "产品图、行业场景说明",
+      "真实、专业、不要塑料感"
+    ],
+    [
+      "工厂形象图",
+      "待定",
+      "About / Factory 页面",
+      "真实工厂图",
+      "干净、可信、工业感"
+    ],
+    [
+      "团队形象图",
+      "待定",
+      "About 页面",
+      "团队或办公照片",
+      "商务、可信"
+    ],
+    [
+      "产品短视频素材",
+      "待定",
+      "网站/社媒/广告",
+      "产品图、脚本、参考视频",
+      "简洁、高级、外贸B2B"
+    ],
+    [
+      "社媒广告图",
+      "待定",
+      "Facebook/TikTok/LinkedIn",
+      "产品图、目标国家、卖点",
+      "转化导向"
+    ],
+    [
+      "图标素材",
+      "待定",
+      "优势模块/参数模块",
+      "卖点清单",
+      "统一线性图标"
+    ],
+    [
+      "客户案例配图",
+      "待定",
+      "案例页",
+      "项目照片/国家/行业",
+      "真实可信",
+      "没有授权不要展示客户Logo"
+    ]
+  ],
+  "09-上传资料清单": [
+    [
+      "09 上传资料清单"
+    ],
+    [
+      "课前检查资料是否完整。建议老师提前一天收集并检查。"
+    ],
+    [
+      "资料类别",
+      "是否已准备",
+      "建议文件名/格式",
+      "上传位置",
+      "备注"
+    ],
+    [
+      "Logo",
+      "否",
+      "logo.png / logo.svg / ai源文件",
+      "02-品牌资料",
+      "透明底Logo优先"
+    ],
+    [
+      "品牌色说明",
+      "否",
+      "brand-colors.txt",
+      "02-品牌资料",
+      "可写HEX色值"
+    ],
+    [
+      "产品画册",
+      "否",
+      "catalog.pdf",
+      "03-产品资料",
+      "英文画册优先"
+    ],
+    [
+      "产品分类表",
+      "否",
+      "product-categories.xlsx",
+      "03-产品资料"
+    ],
+    [
+      "产品参数表",
+      "否",
+      "specifications.xlsx",
+      "03-产品资料"
+    ],
+    [
+      "产品白底图",
+      "否",
+      "product-name-white-bg.png",
+      "04-图片素材/产品白底图",
+      "图片命名要清楚"
+    ],
+    [
+      "产品场景图",
+      "否",
+      "application-xxx.jpg",
+      "04-图片素材/产品场景图"
+    ],
+    [
+      "工厂照片",
+      "否",
+      "factory-workshop-01.jpg",
+      "04-图片素材/工厂照片"
+    ],
+    [
+      "团队照片",
+      "否",
+      "team-01.jpg",
+      "04-图片素材/团队照片",
+      "没有可不传"
+    ],
+    [
+      "证书照片",
+      "否",
+      "certificate-ce.jpg",
+      "04-图片素材/证书照片",
+      "没有不要虚构"
+    ],
+    [
+      "项目案例",
+      "否",
+      "project-cases.docx",
+      "05-案例与客户资料",
+      "尽量写国家、行业、产品"
+    ],
+    [
+      "联系方式",
+      "否",
+      "contact-info.txt",
+      "06-联系方式",
+      "邮箱和WhatsApp必须准确"
+    ],
+    [
+      "参考网站链接",
+      "否",
+      "reference-websites.txt",
+      "02-品牌资料",
+      "写明喜欢哪个部分"
+    ]
+  ],
+  "10-Codex说明文件": [
+    [
+      "10 Codex 说明文件模板"
+    ],
+    [
+      "把前面填写的信息整理后，可粘贴到 PROJECT-BRIEF.md 或 AGENTS.md 里给 Codex 使用。"
+    ],
+    [
+      "模块",
+      "内容"
+    ],
+    [
+      "Company",
+      "Company Name:\nBrand Name:\nIndustry:\nMain Products:\nTarget Markets:\nTarget Customers:"
+    ],
+    [
+      "Website Goal",
+      "Build a professional B2B foreign trade independent website.\nMain goals:\n- Build trust\n- Display products\n- Generate inquiries\n- Support SEO and advertising landing pages"
+    ],
+    [
+      "Visual Style",
+      "Style:\nBrand Colors:\nReference Websites:\nDo not use:\nPreferred layout:"
+    ],
+    [
+      "Website Pages",
+      "- Home\n- Products\n- Product Detail\n- Applications\n- About Us\n- Factory\n- Cases\n- Contact"
+    ],
+    [
+      "Homepage Sections",
+      "- Hero section\n- Product categories\n- Company advantages\n- Application scenarios\n- Factory strength\n- Certifications\n- Project cases\n- Inquiry form\n- Footer"
+    ],
+    [
+      "Product Rules",
+      "Product categories:\nMain products:\nProduct detail pages should include:\n- Product image\n- Key selling points\n- Specifications\n- Applications\n- FAQ\n- Inquiry CTA"
+    ],
+    [
+      "Content Rules",
+      "Use professional B2B English.\nAvoid exaggerated marketing language.\nKeep the tone trustworthy, clear, and international.\nDo not invent certifications, project cases, or customer names.\nIf information is missing, use placeholder text and mark it clearly."
+    ],
+    [
+      "Technical Preference",
+      "Use Next.js.\nUse responsive design.\nMake the website mobile-friendly.\nUse clean components.\nKeep the code easy to modify."
+    ],
+    [
+      "First Codex Prompt",
+      "Please build a professional B2B foreign trade independent website based on the project brief above. Create the homepage, products page, product detail template, about page, and contact page. Keep the design responsive, clean, trustworthy, and suitable for overseas B2B buyers."
+    ]
+  ]
+}

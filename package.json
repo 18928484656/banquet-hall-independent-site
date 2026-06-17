@@ -1,0 +1,19 @@
+{
+  "name": "leduss-banquet-hall-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1",
+    "build": "next build",
+    "start": "next start -H 127.0.0.1"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.0"
+  }
+}

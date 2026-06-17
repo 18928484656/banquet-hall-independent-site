@@ -1,0 +1,2280 @@
+{
+  "summary": {
+    "totalUrls": 117,
+    "statusNot200": [],
+    "missingTitle": [],
+    "missingMeta": [],
+    "multipleOrNoH1": [],
+    "missingImageAltPages": [],
+    "overflowDesktop": [],
+    "overflowMobile": [],
+    "titleSamples": [
+      {
+        "path": "/",
+        "title": "LEDUSS | Luxury Banquet Hall Design & Construction",
+        "meta": "One-stop banquet hall design, procurement, construction and EPC turnkey project delivery for hotels, wedding venues and event centers.",
+        "h1": "Luxury Banquet Hall Design & Construction",
+        "h2": 8,
+        "h3": 15,
+        "img": 12,
+        "missingAlt": 0
+      },
+      {
+        "path": "/services",
+        "title": "Banquet Hall Design, Construction & EPC Services | LEDUSS",
+        "meta": "Explore LEDUSS banquet hall design, construction, renovation, lighting AV and turnkey EPC services for hotels and wedding venue investors.",
+        "h1": "Banquet Hall Design, Construction & EPC Delivery",
+        "h2": 7,
+        "h3": 1,
+        "img": 8,
+        "missingAlt": 0
+      },
+      {
+        "path": "/projects",
+        "title": "Banquet Hall Project Cases & Design Concepts | LEDUSS",
+        "meta": "View banquet hall renovation, luxury wedding hall, hotel ballroom and themed EPC project case directions from LEDUSS.",
+        "h1": "Banquet Hall Projects, Renovation Ideas & EPC Concepts",
+        "h2": 6,
+        "h3": 1,
+        "img": 8,
+        "missingAlt": 0
+      },
+      {
+        "path": "/design-styles",
+        "title": "Luxury Banquet Hall Design Styles | LEDUSS",
+        "meta": "Explore luxury gold, ocean theme, crystal white, technology event and classic banquet hall design styles for hotels and wedding venues.",
+        "h1": "Luxury Banquet Hall Styles for Different Venue Positioning",
+        "h2": 6,
+        "h3": 1,
+        "img": 8,
+        "missingAlt": 0
+      },
+      {
+        "path": "/contact",
+        "title": "Contact LEDUSS | Banquet Hall Project Consultation",
+        "meta": "Contact LEDUSS for banquet hall design, construction, hotel ballroom renovation and turnkey EPC project support.",
+        "h1": "Tell us about your banquet hall project.",
+        "h2": 1,
+        "h3": 1,
+        "img": 1,
+        "missingAlt": 0
+      },
+      {
+        "path": "/inquiry",
+        "title": "Project Inquiry | LEDUSS Banquet Hall EPC Solution",
+        "meta": "Submit your banquet hall, wedding venue, hotel ballroom renovation or event center EPC project inquiry to LEDUSS.",
+        "h1": "Start your banquet hall project consultation.",
+        "h2": 1,
+        "h3": 1,
+        "img": 1,
+        "missingAlt": 0
+      },
+      {
+        "path": "/blog",
+        "title": "Banquet Hall Design Blog | LEDUSS SEO Resource Center",
+        "meta": "English B2B guides for banquet hall design, hotel ballroom renovation, EPC turnkey delivery, lighting, AV and overseas venue projects.",
+        "h1": "Banquet Hall Design, EPC & Renovation Guides",
+        "h2": 3,
+        "h3": 111,
+        "img": 2,
+        "missingAlt": 0
+      },
+      {
+        "path": "/blog/banquet-hall-design-cost-guide-what-affects-budget-in-overseas-projects",
+        "title": "Banquet Hall Design Cost Guide: What Affects Budget in Overse...",
+        "meta": "A practical guide to banquet hall design cost for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+        "h1": "Banquet Hall Design Cost Guide: What Affects Budget in Overseas Projects",
+        "h2": 17,
+        "h3": 14,
+        "img": 2,
+        "missingAlt": 0
+      },
+      {
+        "path": "/blog/how-to-build-a-banquet-hall-a-practical-step-by-step-guide-for-investors",
+        "title": "How to Build a Banquet Hall: A Practical Step-by-Step Guide f...",
+        "meta": "A practical guide to how to build a banquet hall for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+        "h1": "How to Build a Banquet Hall: A Practical Step-by-Step Guide for Investors",
+        "h2": 17,
+        "h3": 14,
+        "img": 2,
+        "missingAlt": 0
+      },
+      {
+        "path": "/blog/turnkey-banquet-hall-solution-what-should-be-included-before-you-sign",
+        "title": "Turnkey Banquet Hall Solution: What Should Be Included Before...",
+        "meta": "A practical guide to turnkey banquet hall solution for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+        "h1": "Turnkey Banquet Hall Solution: What Should Be Included Before You Sign",
+        "h2": 17,
+        "h3": 14,
+        "img": 2,
+        "missingAlt": 0
+      }
+    ],
+    "robots": {
+      "status": 404,
+      "text": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/app_globals_0yg4wg8.css\" data-precedence=\"next_static/chunks/app_globals_0yg4wg8.css\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_1xx01vv._.js\"/><script src=\"/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_0"
+    },
+    "sitemap": {
+      "status": 404,
+      "text": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/app_globals_0yg4wg8.css\" data-precedence=\"next_static/chunks/app_globals_0yg4wg8.css\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_1xx01vv._.js\"/><script src=\"/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_0"
+    },
+    "mobileResults": [
+      {
+        "path": "/",
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1": "Luxury Banquet Hall Design & Construction"
+      },
+      {
+        "path": "/services",
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1": "Banquet Hall Design, Construction & EPC Delivery"
+      },
+      {
+        "path": "/projects",
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1": "Banquet Hall Projects, Renovation Ideas & EPC Concepts"
+      },
+      {
+        "path": "/design-styles",
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1": "Luxury Banquet Hall Styles for Different Venue Positioning"
+      },
+      {
+        "path": "/contact",
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1": "Tell us about your banquet hall project."
+      },
+      {
+        "path": "/inquiry",
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1": "Start your banquet hall project consultation."
+      },
+      {
+        "path": "/blog",
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1": "Banquet Hall Design, EPC & Renovation Guides"
+      },
+      {
+        "path": "/blog/banquet-hall-design-cost-guide-what-affects-budget-in-overseas-projects",
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1": "Banquet Hall Design Cost Guide: What Affects Budget in Overseas Projects"
+      }
+    ]
+  },
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "LEDUSS | Luxury Banquet Hall Design & Construction",
+      "metaDescription": "One-stop banquet hall design, procurement, construction and EPC turnkey project delivery for hotels, wedding venues and event centers.",
+      "h1": [
+        "Luxury Banquet Hall Design & Construction"
+      ],
+      "h2Count": 8,
+      "h3Count": 15,
+      "imgCount": 12,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 30,
+      "externalLinks": 3,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/services",
+      "status": 200,
+      "title": "Banquet Hall Design, Construction & EPC Services | LEDUSS",
+      "metaDescription": "Explore LEDUSS banquet hall design, construction, renovation, lighting AV and turnkey EPC services for hotels and wedding venue investors.",
+      "h1": [
+        "Banquet Hall Design, Construction & EPC Delivery"
+      ],
+      "h2Count": 7,
+      "h3Count": 1,
+      "imgCount": 8,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 27,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/projects",
+      "status": 200,
+      "title": "Banquet Hall Project Cases & Design Concepts | LEDUSS",
+      "metaDescription": "View banquet hall renovation, luxury wedding hall, hotel ballroom and themed EPC project case directions from LEDUSS.",
+      "h1": [
+        "Banquet Hall Projects, Renovation Ideas & EPC Concepts"
+      ],
+      "h2Count": 6,
+      "h3Count": 1,
+      "imgCount": 8,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 27,
+      "externalLinks": 1,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/design-styles",
+      "status": 200,
+      "title": "Luxury Banquet Hall Design Styles | LEDUSS",
+      "metaDescription": "Explore luxury gold, ocean theme, crystal white, technology event and classic banquet hall design styles for hotels and wedding venues.",
+      "h1": [
+        "Luxury Banquet Hall Styles for Different Venue Positioning"
+      ],
+      "h2Count": 6,
+      "h3Count": 1,
+      "imgCount": 8,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 27,
+      "externalLinks": 1,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "title": "Contact LEDUSS | Banquet Hall Project Consultation",
+      "metaDescription": "Contact LEDUSS for banquet hall design, construction, hotel ballroom renovation and turnkey EPC project support.",
+      "h1": [
+        "Tell us about your banquet hall project."
+      ],
+      "h2Count": 1,
+      "h3Count": 1,
+      "imgCount": 1,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 21,
+      "externalLinks": 5,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/inquiry",
+      "status": 200,
+      "title": "Project Inquiry | LEDUSS Banquet Hall EPC Solution",
+      "metaDescription": "Submit your banquet hall, wedding venue, hotel ballroom renovation or event center EPC project inquiry to LEDUSS.",
+      "h1": [
+        "Start your banquet hall project consultation."
+      ],
+      "h2Count": 1,
+      "h3Count": 1,
+      "imgCount": 1,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 21,
+      "externalLinks": 1,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog",
+      "status": 200,
+      "title": "Banquet Hall Design Blog | LEDUSS SEO Resource Center",
+      "metaDescription": "English B2B guides for banquet hall design, hotel ballroom renovation, EPC turnkey delivery, lighting, AV and overseas venue projects.",
+      "h1": [
+        "Banquet Hall Design, EPC & Renovation Guides"
+      ],
+      "h2Count": 3,
+      "h3Count": 111,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 131,
+      "externalLinks": 1,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-cost-guide-what-affects-budget-in-overseas-projects",
+      "status": 200,
+      "title": "Banquet Hall Design Cost Guide: What Affects Budget in Overse...",
+      "metaDescription": "A practical guide to banquet hall design cost for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Cost Guide: What Affects Budget in Overseas Projects"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/how-to-build-a-banquet-hall-a-practical-step-by-step-guide-for-investors",
+      "status": 200,
+      "title": "How to Build a Banquet Hall: A Practical Step-by-Step Guide f...",
+      "metaDescription": "A practical guide to how to build a banquet hall for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "How to Build a Banquet Hall: A Practical Step-by-Step Guide for Investors"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/turnkey-banquet-hall-solution-what-should-be-included-before-you-sign",
+      "status": 200,
+      "title": "Turnkey Banquet Hall Solution: What Should Be Included Before...",
+      "metaDescription": "A practical guide to turnkey banquet hall solution for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Turnkey Banquet Hall Solution: What Should Be Included Before You Sign"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-epc-solution-vs-design-build-which-model-fits-your-project",
+      "status": 200,
+      "title": "Banquet Hall EPC Solution vs Design-Build: Which Model Fits Y...",
+      "metaDescription": "A practical guide to banquet hall EPC solution for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall EPC Solution vs Design-Build: Which Model Fits Your Project?"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-construction-timeline-from-concept-design-to-opening-day",
+      "status": 200,
+      "title": "Banquet Hall Construction Timeline: From Concept Design to Op...",
+      "metaDescription": "A practical guide to banquet hall construction timeline for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Construction Timeline: From Concept Design to Opening Day"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/how-to-prepare-a-banquet-hall-project-brief-for-a-design-and-construction-supplier",
+      "status": 200,
+      "title": "How to Prepare a Banquet Hall Project Brief for a Design and ...",
+      "metaDescription": "A practical guide to banquet hall project brief for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "How to Prepare a Banquet Hall Project Brief for a Design and Construction Supplier"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-procurement-checklist-for-overseas-hotel-and-wedding-venue-projects",
+      "status": 200,
+      "title": "Banquet Hall Procurement Checklist for Overseas Hotel and Wed...",
+      "metaDescription": "A practical guide to banquet hall procurement checklist for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Procurement Checklist for Overseas Hotel and Wedding Venue Projects"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-factory-testing-and-shipment-inspection-what-buyers-should-check",
+      "status": 200,
+      "title": "Banquet Hall Factory Testing and Shipment Inspection: What Bu...",
+      "metaDescription": "A practical guide to banquet hall shipment inspection for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Factory Testing and Shipment Inspection: What Buyers Should Check"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/how-to-compare-banquet-hall-design-companies-for-overseas-projects",
+      "status": 200,
+      "title": "How to Compare Banquet Hall Design Companies for Overseas Pro...",
+      "metaDescription": "A practical guide to banquet hall design company for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "How to Compare Banquet Hall Design Companies for Overseas Projects"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/common-mistakes-in-banquet-hall-projects-and-how-to-avoid-costly-rework",
+      "status": 200,
+      "title": "Common Mistakes in Banquet Hall Projects and How to Avoid Cos...",
+      "metaDescription": "A practical guide to banquet hall project mistakes for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Common Mistakes in Banquet Hall Projects and How to Avoid Costly Rework"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-quotation-guide-how-to-read-scope-materials-and-exclusions",
+      "status": 200,
+      "title": "Banquet Hall Quotation Guide: How to Read Scope, Materials an...",
+      "metaDescription": "A practical guide to banquet hall quotation for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Quotation Guide: How to Read Scope, Materials and Exclusions"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-proposal-what-a-serious-supplier-should-provide",
+      "status": 200,
+      "title": "Banquet Hall Design Proposal: What a Serious Supplier Should ...",
+      "metaDescription": "A practical guide to banquet hall design proposal for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Proposal: What a Serious Supplier Should Provide"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-project-budget-planning-for-hotel-and-wedding-venue-investors",
+      "status": 200,
+      "title": "Banquet Hall Project Budget Planning for Hotel and Wedding Ve...",
+      "metaDescription": "A practical guide to banquet hall project budget for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Project Budget Planning for Hotel and Wedding Venue Investors"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-and-construction-contract-checklist",
+      "status": 200,
+      "title": "Banquet Hall Design and Construction Contract Checklist",
+      "metaDescription": "A practical guide to banquet hall design and construction contract for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design and Construction Contract Checklist"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-material-procurement-local-purchase-vs-overseas-supply",
+      "status": 200,
+      "title": "Banquet Hall Material Procurement: Local Purchase vs Overseas...",
+      "metaDescription": "A practical guide to banquet hall material procurement for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Material Procurement: Local Purchase vs Overseas Supply"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-installation-guide-for-overseas-contractors",
+      "status": 200,
+      "title": "Banquet Hall Installation Guide for Overseas Contractors",
+      "metaDescription": "A practical guide to banquet hall installation guide for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Installation Guide for Overseas Contractors"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-project-management-checklist-for-owners",
+      "status": 200,
+      "title": "Banquet Hall Project Management Checklist for Owners",
+      "metaDescription": "A practical guide to banquet hall project management for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Project Management Checklist for Owners"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-tender-documents-what-buyers-should-prepare",
+      "status": 200,
+      "title": "Banquet Hall Tender Documents: What Buyers Should Prepare",
+      "metaDescription": "A practical guide to banquet hall tender documents for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Tender Documents: What Buyers Should Prepare"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-construction-quality-control-site-factory-and-handover-checks",
+      "status": 200,
+      "title": "Banquet Hall Construction Quality Control: Site, Factory and ...",
+      "metaDescription": "A practical guide to banquet hall construction quality control for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Construction Quality Control: Site, Factory and Handover Checks"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-shipping-and-packing-guide-for-custom-interior-materials",
+      "status": 200,
+      "title": "Banquet Hall Shipping and Packing Guide for Custom Interior M...",
+      "metaDescription": "A practical guide to banquet hall shipping packing for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Shipping and Packing Guide for Custom Interior Materials"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/how-to-reduce-risk-in-an-overseas-banquet-hall-epc-project",
+      "status": 200,
+      "title": "How to Reduce Risk in an Overseas Banquet Hall EPC Project",
+      "metaDescription": "A practical guide to overseas banquet hall EPC project for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "How to Reduce Risk in an Overseas Banquet Hall EPC Project"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-scope-concept-drawings-materials-and-site-support",
+      "status": 200,
+      "title": "Banquet Hall Design Scope: Concept, Drawings, Materials and S...",
+      "metaDescription": "A practical guide to banquet hall design scope for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Scope: Concept, Drawings, Materials and Site Support"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-renovation-planning-checklist-before-demolition-starts",
+      "status": 200,
+      "title": "Banquet Hall Renovation Planning Checklist Before Demolition ...",
+      "metaDescription": "A practical guide to banquet hall renovation planning for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Renovation Planning Checklist Before Demolition Starts"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-opening-preparation-design-testing-staff-flow-and-maintenance",
+      "status": 200,
+      "title": "Banquet Hall Opening Preparation: Design, Testing, Staff Flow...",
+      "metaDescription": "A practical guide to banquet hall opening preparation for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Opening Preparation: Design, Testing, Staff Flow and Maintenance"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-supplier-audit-checklist-for-international-buyers",
+      "status": 200,
+      "title": "Banquet Hall Supplier Audit Checklist for International Buyers",
+      "metaDescription": "A practical guide to banquet hall supplier audit for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Supplier Audit Checklist for International Buyers"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-payment-terms-and-milestones-for-overseas-projects",
+      "status": 200,
+      "title": "Banquet Hall Payment Terms and Milestones for Overseas Projects",
+      "metaDescription": "A practical guide to banquet hall payment terms for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Payment Terms and Milestones for Overseas Projects"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-construction-drawings-what-owners-should-review",
+      "status": 200,
+      "title": "Banquet Hall Construction Drawings: What Owners Should Review",
+      "metaDescription": "A practical guide to banquet hall construction drawings for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Construction Drawings: What Owners Should Review"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-shop-drawings-and-mockups-why-they-matter-before-production",
+      "status": 200,
+      "title": "Banquet Hall Shop Drawings and Mockups: Why They Matter Befor...",
+      "metaDescription": "A practical guide to banquet hall shop drawings for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Shop Drawings and Mockups: Why They Matter Before Production"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-site-measurement-checklist-for-accurate-design",
+      "status": 200,
+      "title": "Banquet Hall Site Measurement Checklist for Accurate Design",
+      "metaDescription": "A practical guide to banquet hall site measurement for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Site Measurement Checklist for Accurate Design"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-project-communication-how-to-work-with-overseas-suppliers",
+      "status": 200,
+      "title": "Banquet Hall Project Communication: How to Work with Overseas...",
+      "metaDescription": "A practical guide to banquet hall project communication for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Project Communication: How to Work with Overseas Suppliers"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-warranty-and-after-sales-support-what-buyers-should-ask",
+      "status": 200,
+      "title": "Banquet Hall Warranty and After-Sales Support: What Buyers Sh...",
+      "metaDescription": "A practical guide to banquet hall warranty support for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Warranty and After-Sales Support: What Buyers Should Ask"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-material-sample-approval-guide-for-owners",
+      "status": 200,
+      "title": "Banquet Hall Material Sample Approval Guide for Owners",
+      "metaDescription": "A practical guide to banquet hall material sample approval for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Material Sample Approval Guide for Owners"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-import-documents-and-packing-list-planning",
+      "status": 200,
+      "title": "Banquet Hall Import Documents and Packing List Planning",
+      "metaDescription": "A practical guide to banquet hall import documents for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Import Documents and Packing List Planning"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-contractor-coordination-local-team-and-overseas-supplier-roles",
+      "status": 200,
+      "title": "Banquet Hall Contractor Coordination: Local Team and Overseas...",
+      "metaDescription": "A practical guide to banquet hall contractor coordination for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Contractor Coordination: Local Team and Overseas Supplier Roles"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-handover-checklist-for-owners-and-operators",
+      "status": 200,
+      "title": "Banquet Hall Handover Checklist for Owners and Operators",
+      "metaDescription": "A practical guide to banquet hall handover checklist for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Handover Checklist for Owners and Operators"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-value-engineering-how-to-control-budget-without-losing-impact",
+      "status": 200,
+      "title": "Banquet Hall Value Engineering: How to Control Budget Without...",
+      "metaDescription": "A practical guide to banquet hall value engineering for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Value Engineering: How to Control Budget Without Losing Impact"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-project-feasibility-study-for-first-time-investors",
+      "status": 200,
+      "title": "Banquet Hall Project Feasibility Study for First-Time Investors",
+      "metaDescription": "A practical guide to banquet hall feasibility study for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Project Feasibility Study for First-Time Investors"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-approval-process-from-moodboard-to-construction-package",
+      "status": 200,
+      "title": "Banquet Hall Design Approval Process: From Moodboard to Const...",
+      "metaDescription": "A practical guide to banquet hall design approval process for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Approval Process: From Moodboard to Construction Package"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-production-lead-time-materials-lighting-av-and-custom-parts",
+      "status": 200,
+      "title": "Banquet Hall Production Lead Time: Materials, Lighting, AV an...",
+      "metaDescription": "A practical guide to banquet hall production lead time for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Production Lead Time: Materials, Lighting, AV and Custom Parts"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-international-project-checklist-for-developers",
+      "status": 200,
+      "title": "Banquet Hall International Project Checklist for Developers",
+      "metaDescription": "A practical guide to international banquet hall project checklist for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall International Project Checklist for Developers"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-layout-ideas-stage-seating-service-flow-and-guest-experience",
+      "status": 200,
+      "title": "Banquet Hall Layout Ideas: Stage, Seating, Service Flow and G...",
+      "metaDescription": "A practical guide to banquet hall layout ideas for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Layout Ideas: Stage, Seating, Service Flow and Guest Experience"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-ceiling-design-ideas-lighting-acoustic-and-mep-coordination",
+      "status": 200,
+      "title": "Banquet Hall Ceiling Design Ideas: Lighting, Acoustic and MEP...",
+      "metaDescription": "A practical guide to banquet hall ceiling design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Ceiling Design Ideas: Lighting, Acoustic and MEP Coordination"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/wedding-hall-stage-design-ideas-for-luxury-banquet-venues",
+      "status": 200,
+      "title": "Wedding Hall Stage Design Ideas for Luxury Banquet Venues",
+      "metaDescription": "A practical guide to wedding hall stage design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Wedding Hall Stage Design Ideas for Luxury Banquet Venues"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-lighting-design-guide-scene-control-chandeliers-and-led-effects",
+      "status": 200,
+      "title": "Banquet Hall Lighting Design Guide: Scene Control, Chandelier...",
+      "metaDescription": "A practical guide to banquet hall lighting design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Lighting Design Guide: Scene Control, Chandeliers and LED Effects"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-lighting-and-av-system-integration-a-buyer-s-technical-guide",
+      "status": 200,
+      "title": "Banquet Hall Lighting and AV System Integration: A Buyer's Te...",
+      "metaDescription": "A practical guide to banquet hall lighting and AV system for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Lighting and AV System Integration: A Buyer's Technical Guide"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/luxury-wedding-hall-design-ideas-that-improve-booking-value",
+      "status": 200,
+      "title": "Luxury Wedding Hall Design Ideas That Improve Booking Value",
+      "metaDescription": "A practical guide to luxury wedding hall design ideas for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Luxury Wedding Hall Design Ideas That Improve Booking Value"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/hotel-ballroom-interior-design-how-to-balance-weddings-banquets-and-mice-events",
+      "status": 200,
+      "title": "Hotel Ballroom Interior Design: How to Balance Weddings, Banq...",
+      "metaDescription": "A practical guide to hotel ballroom interior design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Hotel Ballroom Interior Design: How to Balance Weddings, Banquets and MICE Events"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-furniture-materials-and-finishes-how-to-choose-for-durability",
+      "status": 200,
+      "title": "Banquet Hall Furniture, Materials and Finishes: How to Choose...",
+      "metaDescription": "A practical guide to banquet hall furniture materials for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Furniture, Materials and Finishes: How to Choose for Durability"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/led-screen-sound-and-smart-control-systems-for-banquet-halls",
+      "status": 200,
+      "title": "LED Screen, Sound and Smart Control Systems for Banquet Halls",
+      "metaDescription": "A practical guide to banquet hall LED screen sound system for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "LED Screen, Sound and Smart Control Systems for Banquet Halls"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/how-to-design-a-banquet-hall-that-works-for-weddings-corporate-events-and-conferences",
+      "status": 200,
+      "title": "How to Design a Banquet Hall That Works for Weddings, Corpora...",
+      "metaDescription": "A practical guide to multi function banquet hall design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "How to Design a Banquet Hall That Works for Weddings, Corporate Events and Conferences"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-entrance-design-first-impression-guest-flow-and-photo-value",
+      "status": 200,
+      "title": "Banquet Hall Entrance Design: First Impression, Guest Flow an...",
+      "metaDescription": "A practical guide to banquet hall entrance design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Entrance Design: First Impression, Guest Flow and Photo Value"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-bridal-aisle-design-for-luxury-wedding-ceremonies",
+      "status": 200,
+      "title": "Banquet Hall Bridal Aisle Design for Luxury Wedding Ceremonies",
+      "metaDescription": "A practical guide to banquet hall bridal aisle design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Bridal Aisle Design for Luxury Wedding Ceremonies"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-backdrop-design-led-wall-floral-scene-or-architectural-feature",
+      "status": 200,
+      "title": "Banquet Hall Backdrop Design: LED Wall, Floral Scene or Archi...",
+      "metaDescription": "A practical guide to banquet hall backdrop design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Backdrop Design: LED Wall, Floral Scene or Architectural Feature?"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-chandelier-design-size-height-maintenance-and-visual-impact",
+      "status": 200,
+      "title": "Banquet Hall Chandelier Design: Size, Height, Maintenance and...",
+      "metaDescription": "A practical guide to banquet hall chandelier design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Chandelier Design: Size, Height, Maintenance and Visual Impact"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-acoustic-design-speech-clarity-music-and-reverberation-control",
+      "status": 200,
+      "title": "Banquet Hall Acoustic Design: Speech Clarity, Music and Rever...",
+      "metaDescription": "A practical guide to banquet hall acoustic design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Acoustic Design: Speech Clarity, Music and Reverberation Control"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-color-scheme-guide-for-premium-wedding-venues",
+      "status": 200,
+      "title": "Banquet Hall Color Scheme Guide for Premium Wedding Venues",
+      "metaDescription": "A practical guide to banquet hall color scheme for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Color Scheme Guide for Premium Wedding Venues"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-carpet-and-flooring-guide-for-high-traffic-event-spaces",
+      "status": 200,
+      "title": "Banquet Hall Carpet and Flooring Guide for High-Traffic Event...",
+      "metaDescription": "A practical guide to banquet hall carpet flooring for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Carpet and Flooring Guide for High-Traffic Event Spaces"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-wall-panel-design-materials-lighting-and-maintenance",
+      "status": 200,
+      "title": "Banquet Hall Wall Panel Design: Materials, Lighting and Maint...",
+      "metaDescription": "A practical guide to banquet hall wall panel design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Wall Panel Design: Materials, Lighting and Maintenance"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-movable-partition-design-for-flexible-hotel-ballrooms",
+      "status": 200,
+      "title": "Banquet Hall Movable Partition Design for Flexible Hotel Ball...",
+      "metaDescription": "A practical guide to banquet hall movable partition for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Movable Partition Design for Flexible Hotel Ballrooms"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-table-layout-guide-capacity-service-flow-and-sightlines",
+      "status": 200,
+      "title": "Banquet Hall Table Layout Guide: Capacity, Service Flow and S...",
+      "metaDescription": "A practical guide to banquet hall table layout for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Table Layout Guide: Capacity, Service Flow and Sightlines"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-stage-lighting-scenes-for-wedding-dinner-and-performance",
+      "status": 200,
+      "title": "Banquet Hall Stage Lighting Scenes for Wedding, Dinner and Pe...",
+      "metaDescription": "A practical guide to banquet hall stage lighting scenes for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Stage Lighting Scenes for Wedding, Dinner and Performance"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-led-screen-size-guide-viewing-distance-and-stage-proportion",
+      "status": 200,
+      "title": "Banquet Hall LED Screen Size Guide: Viewing Distance and Stag...",
+      "metaDescription": "A practical guide to banquet hall LED screen size for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall LED Screen Size Guide: Viewing Distance and Stage Proportion"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-sound-system-design-coverage-control-and-guest-comfort",
+      "status": 200,
+      "title": "Banquet Hall Sound System Design: Coverage, Control and Guest...",
+      "metaDescription": "A practical guide to banquet hall sound system design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Sound System Design: Coverage, Control and Guest Comfort"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-smart-control-system-lighting-av-and-scene-presets",
+      "status": 200,
+      "title": "Banquet Hall Smart Control System: Lighting, AV and Scene Pre...",
+      "metaDescription": "A practical guide to banquet hall smart control system for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Smart Control System: Lighting, AV and Scene Presets"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-fire-safety-coordination-in-ceiling-and-interior-design",
+      "status": 200,
+      "title": "Banquet Hall Fire Safety Coordination in Ceiling and Interior...",
+      "metaDescription": "A practical guide to banquet hall fire safety design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Fire Safety Coordination in Ceiling and Interior Design"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-hvac-coordination-comfort-ceiling-design-and-noise-control",
+      "status": 200,
+      "title": "Banquet Hall HVAC Coordination: Comfort, Ceiling Design and N...",
+      "metaDescription": "A practical guide to banquet hall HVAC coordination for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall HVAC Coordination: Comfort, Ceiling Design and Noise Control"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-kitchen-and-service-corridor-planning-for-events",
+      "status": 200,
+      "title": "Banquet Hall Kitchen and Service Corridor Planning for Events",
+      "metaDescription": "A practical guide to banquet hall service corridor planning for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Kitchen and Service Corridor Planning for Events"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-photo-zone-design-for-wedding-venue-marketing",
+      "status": 200,
+      "title": "Banquet Hall Photo Zone Design for Wedding Venue Marketing",
+      "metaDescription": "A practical guide to banquet hall photo zone design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Photo Zone Design for Wedding Venue Marketing"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-theme-design-classic-luxury-gold-ocean-and-technology-styles",
+      "status": 200,
+      "title": "Banquet Hall Theme Design: Classic, Luxury Gold, Ocean and Te...",
+      "metaDescription": "A practical guide to banquet hall theme design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Theme Design: Classic, Luxury Gold, Ocean and Technology Styles"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-lighting-fixture-specification-for-overseas-buyers",
+      "status": 200,
+      "title": "Banquet Hall Lighting Fixture Specification for Overseas Buyers",
+      "metaDescription": "A practical guide to banquet hall lighting fixture specification for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Lighting Fixture Specification for Overseas Buyers"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-decorative-metal-ceiling-guide-for-luxury-projects",
+      "status": 200,
+      "title": "Banquet Hall Decorative Metal Ceiling Guide for Luxury Projects",
+      "metaDescription": "A practical guide to banquet hall decorative metal ceiling for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Decorative Metal Ceiling Guide for Luxury Projects"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-mirror-crystal-and-glass-design-where-to-use-and-avoid",
+      "status": 200,
+      "title": "Banquet Hall Mirror, Crystal and Glass Design: Where to Use a...",
+      "metaDescription": "A practical guide to banquet hall mirror crystal glass design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Mirror, Crystal and Glass Design: Where to Use and Avoid"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-vip-room-and-pre-function-area-design",
+      "status": 200,
+      "title": "Banquet Hall VIP Room and Pre-Function Area Design",
+      "metaDescription": "A practical guide to banquet hall VIP room design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall VIP Room and Pre-Function Area Design"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-restroom-and-guest-support-area-design-considerations",
+      "status": 200,
+      "title": "Banquet Hall Restroom and Guest Support Area Design Considera...",
+      "metaDescription": "A practical guide to banquet hall restroom design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Restroom and Guest Support Area Design Considerations"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-lighting-control-testing-before-shipment",
+      "status": 200,
+      "title": "Banquet Hall Lighting Control Testing Before Shipment",
+      "metaDescription": "A practical guide to banquet hall lighting control testing for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Lighting Control Testing Before Shipment"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/hotel-ballroom-renovation-cost-guide-scope-downtime-and-upgrade-priorities",
+      "status": 200,
+      "title": "Hotel Ballroom Renovation Cost Guide: Scope, Downtime and Upg...",
+      "metaDescription": "A practical guide to hotel ballroom renovation cost for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Hotel Ballroom Renovation Cost Guide: Scope, Downtime and Upgrade Priorities"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/how-to-renovate-an-old-ballroom-without-losing-event-revenue",
+      "status": 200,
+      "title": "How to Renovate an Old Ballroom Without Losing Event Revenue",
+      "metaDescription": "A practical guide to how to renovate an old ballroom for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "How to Renovate an Old Ballroom Without Losing Event Revenue"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/ballroom-renovation-contractor-checklist-for-hotel-owners",
+      "status": 200,
+      "title": "Ballroom Renovation Contractor Checklist for Hotel Owners",
+      "metaDescription": "A practical guide to ballroom renovation contractor for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Ballroom Renovation Contractor Checklist for Hotel Owners"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-malaysia-what-overseas-investors-should-plan-first",
+      "status": 200,
+      "title": "Banquet Hall Design Malaysia: What Overseas Investors Should ...",
+      "metaDescription": "A practical guide to banquet hall design Malaysia for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Malaysia: What Overseas Investors Should Plan First"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/wedding-venue-design-malaysia-layout-and-style-choices-for-competitive-venues",
+      "status": 200,
+      "title": "Wedding Venue Design Malaysia: Layout and Style Choices for C...",
+      "metaDescription": "A practical guide to wedding venue design Malaysia for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Wedding Venue Design Malaysia: Layout and Style Choices for Competitive Venues"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-uae-luxury-standards-materials-and-project-delivery",
+      "status": 200,
+      "title": "Banquet Hall Design UAE: Luxury Standards, Materials and Proj...",
+      "metaDescription": "A practical guide to banquet hall design UAE for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design UAE: Luxury Standards, Materials and Project Delivery"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/wedding-hall-design-saudi-arabia-planning-large-capacity-luxury-venues",
+      "status": 200,
+      "title": "Wedding Hall Design Saudi Arabia: Planning Large-Capacity Lux...",
+      "metaDescription": "A practical guide to wedding hall design Saudi Arabia for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Wedding Hall Design Saudi Arabia: Planning Large-Capacity Luxury Venues"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-epc-contractor-kazakhstan-procurement-and-delivery-considerations",
+      "status": 200,
+      "title": "Banquet Hall EPC Contractor Kazakhstan: Procurement and Deliv...",
+      "metaDescription": "A practical guide to banquet hall EPC contractor Kazakhstan for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall EPC Contractor Kazakhstan: Procurement and Delivery Considerations"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/wedding-hall-design-uzbekistan-how-to-build-a-memorable-venue-concept",
+      "status": 200,
+      "title": "Wedding Hall Design Uzbekistan: How to Build a Memorable Venu...",
+      "metaDescription": "A practical guide to wedding hall design Uzbekistan for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Wedding Hall Design Uzbekistan: How to Build a Memorable Venue Concept"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-project-case-study-framework-how-buyers-should-read-renderings-scope-and-re",
+      "status": 200,
+      "title": "Banquet Hall Project Case Study Framework: How Buyers Should ...",
+      "metaDescription": "A practical guide to banquet hall project case study for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Project Case Study Framework: How Buyers Should Read Renderings, Scope and Results"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/hotel-ballroom-renovation-malaysia-upgrade-strategy-for-older-hotels",
+      "status": 200,
+      "title": "Hotel Ballroom Renovation Malaysia: Upgrade Strategy for Olde...",
+      "metaDescription": "A practical guide to hotel ballroom renovation Malaysia for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Hotel Ballroom Renovation Malaysia: Upgrade Strategy for Older Hotels"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/wedding-hall-design-uae-luxury-venue-planning-for-premium-events",
+      "status": 200,
+      "title": "Wedding Hall Design UAE: Luxury Venue Planning for Premium Ev...",
+      "metaDescription": "A practical guide to wedding hall design UAE for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Wedding Hall Design UAE: Luxury Venue Planning for Premium Events"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-construction-uae-contractor-and-material-supply-considerations",
+      "status": 200,
+      "title": "Banquet Hall Construction UAE: Contractor and Material Supply...",
+      "metaDescription": "A practical guide to banquet hall construction UAE for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Construction UAE: Contractor and Material Supply Considerations"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-qatar-hotel-ballroom-and-event-venue-planning",
+      "status": 200,
+      "title": "Banquet Hall Design Qatar: Hotel Ballroom and Event Venue Pla...",
+      "metaDescription": "A practical guide to banquet hall design Qatar for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Qatar: Hotel Ballroom and Event Venue Planning"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-kuwait-luxury-wedding-venue-and-hotel-ballroom-guide",
+      "status": 200,
+      "title": "Banquet Hall Design Kuwait: Luxury Wedding Venue and Hotel Ba...",
+      "metaDescription": "A practical guide to banquet hall design Kuwait for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Kuwait: Luxury Wedding Venue and Hotel Ballroom Guide"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-oman-resort-hotel-and-wedding-venue-considerations",
+      "status": 200,
+      "title": "Banquet Hall Design Oman: Resort, Hotel and Wedding Venue Con...",
+      "metaDescription": "A practical guide to banquet hall design Oman for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Oman: Resort, Hotel and Wedding Venue Considerations"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-indonesia-wedding-venue-investment-planning",
+      "status": 200,
+      "title": "Banquet Hall Design Indonesia: Wedding Venue Investment Planning",
+      "metaDescription": "A practical guide to banquet hall design Indonesia for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Indonesia: Wedding Venue Investment Planning"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-philippines-event-venue-planning-for-hotels-and-investors",
+      "status": 200,
+      "title": "Banquet Hall Design Philippines: Event Venue Planning for Hot...",
+      "metaDescription": "A practical guide to banquet hall design Philippines for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Philippines: Event Venue Planning for Hotels and Investors"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-thailand-hotel-ballroom-and-wedding-venue-solutions",
+      "status": 200,
+      "title": "Banquet Hall Design Thailand: Hotel Ballroom and Wedding Venu...",
+      "metaDescription": "A practical guide to banquet hall design Thailand for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Thailand: Hotel Ballroom and Wedding Venue Solutions"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-vietnam-epc-and-procurement-planning-for-investors",
+      "status": 200,
+      "title": "Banquet Hall Design Vietnam: EPC and Procurement Planning for...",
+      "metaDescription": "A practical guide to banquet hall design Vietnam for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Vietnam: EPC and Procurement Planning for Investors"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-cambodia-wedding-hall-and-event-center-planning",
+      "status": 200,
+      "title": "Banquet Hall Design Cambodia: Wedding Hall and Event Center P...",
+      "metaDescription": "A practical guide to banquet hall design Cambodia for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Cambodia: Wedding Hall and Event Center Planning"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-singapore-premium-ballroom-renovation-and-fit-out",
+      "status": 200,
+      "title": "Banquet Hall Design Singapore: Premium Ballroom Renovation an...",
+      "metaDescription": "A practical guide to banquet hall design Singapore for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Singapore: Premium Ballroom Renovation and Fit-Out"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-turkey-wedding-venue-and-event-hall-concept-guide",
+      "status": 200,
+      "title": "Banquet Hall Design Turkey: Wedding Venue and Event Hall Conc...",
+      "metaDescription": "A practical guide to banquet hall design Turkey for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Turkey: Wedding Venue and Event Hall Concept Guide"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-azerbaijan-luxury-wedding-hall-planning",
+      "status": 200,
+      "title": "Banquet Hall Design Azerbaijan: Luxury Wedding Hall Planning",
+      "metaDescription": "A practical guide to banquet hall design Azerbaijan for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Azerbaijan: Luxury Wedding Hall Planning"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-georgia-hotel-ballroom-and-wedding-venue-guide",
+      "status": 200,
+      "title": "Banquet Hall Design Georgia: Hotel Ballroom and Wedding Venue...",
+      "metaDescription": "A practical guide to banquet hall design Georgia for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Georgia: Hotel Ballroom and Wedding Venue Guide"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-iraq-wedding-hall-epc-and-procurement-guide",
+      "status": 200,
+      "title": "Banquet Hall Design Iraq: Wedding Hall EPC and Procurement Guide",
+      "metaDescription": "A practical guide to banquet hall design Iraq for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Iraq: Wedding Hall EPC and Procurement Guide"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-pakistan-wedding-venue-layout-and-delivery-guide",
+      "status": 200,
+      "title": "Banquet Hall Design Pakistan: Wedding Venue Layout and Delive...",
+      "metaDescription": "A practical guide to banquet hall design Pakistan for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Pakistan: Wedding Venue Layout and Delivery Guide"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-india-luxury-wedding-hall-and-hotel-ballroom-upgrade",
+      "status": 200,
+      "title": "Banquet Hall Design India: Luxury Wedding Hall and Hotel Ball...",
+      "metaDescription": "A practical guide to banquet hall design India for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design India: Luxury Wedding Hall and Hotel Ballroom Upgrade"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-bangladesh-event-venue-construction-planning",
+      "status": 200,
+      "title": "Banquet Hall Design Bangladesh: Event Venue Construction Plan...",
+      "metaDescription": "A practical guide to banquet hall design Bangladesh for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Bangladesh: Event Venue Construction Planning"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-kenya-hotel-ballroom-and-event-center-planning",
+      "status": 200,
+      "title": "Banquet Hall Design Kenya: Hotel Ballroom and Event Center Pl...",
+      "metaDescription": "A practical guide to banquet hall design Kenya for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Kenya: Hotel Ballroom and Event Center Planning"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-design-nigeria-wedding-venue-investment-and-epc-planning",
+      "status": 200,
+      "title": "Banquet Hall Design Nigeria: Wedding Venue Investment and EPC...",
+      "metaDescription": "A practical guide to banquet hall design Nigeria for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Design Nigeria: Wedding Venue Investment and EPC Planning"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/hotel-ballroom-renovation-for-five-star-hotels-design-and-operation-priorities",
+      "status": 200,
+      "title": "Hotel Ballroom Renovation for Five-Star Hotels: Design and Op...",
+      "metaDescription": "A practical guide to five star hotel ballroom renovation for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Hotel Ballroom Renovation for Five-Star Hotels: Design and Operation Priorities"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/wedding-venue-design-for-resorts-ceremony-banquet-and-photo-experience",
+      "status": 200,
+      "title": "Wedding Venue Design for Resorts: Ceremony, Banquet and Photo...",
+      "metaDescription": "A practical guide to resort wedding venue design for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Wedding Venue Design for Resorts: Ceremony, Banquet and Photo Experience"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/event-center-design-and-construction-banquet-conference-and-launch-events",
+      "status": 200,
+      "title": "Event Center Design and Construction: Banquet, Conference and...",
+      "metaDescription": "A practical guide to event center design and construction for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Event Center Design and Construction: Banquet, Conference and Launch Events"
+      ],
+      "h2Count": 17,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "path": "/blog/banquet-hall-renovation-case-study-from-outdated-ballroom-to-premium-venue",
+      "status": 200,
+      "title": "Banquet Hall Renovation Case Study: From Outdated Ballroom to...",
+      "metaDescription": "A practical guide to banquet hall renovation case study for hotel owners, wedding venue investors and overseas project buyers. Learn scope, quality checks and inquiry preparation.",
+      "h1": [
+        "Banquet Hall Renovation Case Study: From Outdated Ballroom to Premium Venue"
+      ],
+      "h2Count": 18,
+      "h3Count": 14,
+      "imgCount": 2,
+      "missingAlt": 0,
+      "emptyAltSrcs": [],
+      "internalLinks": 22,
+      "externalLinks": 2,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    }
+  ]
+}
