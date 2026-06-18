@@ -456,10 +456,28 @@ textarea {
   font-weight: 800;
 }
 
-.google-translate-root,
-.goog-te-banner-frame,
+.google-translate-root {
+  position: fixed !important;
+  top: 0 !important;
+  left: -9999px !important;
+  width: 1px !important;
+  height: 1px !important;
+  opacity: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+}
+
 .goog-te-gadget,
-.goog-te-combo,
+.goog-te-combo {
+  position: absolute !important;
+  left: -9999px !important;
+  width: 1px !important;
+  height: 1px !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.goog-te-banner-frame,
 iframe.skiptranslate {
   display: none !important;
 }

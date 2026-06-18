@@ -108,8 +108,7 @@ export default function LanguageSwitcher() {
     return buildLanguageUrl(languageCode);
   }
 
-  function selectLanguage(event, language) {
-    event.preventDefault();
+  function prepareLanguageChange(language) {
     setActiveLanguage(language.code);
     window.localStorage.setItem("site-language", language.code);
     document.documentElement.lang = language.code;
@@ -118,10 +117,6 @@ export default function LanguageSwitcher() {
     document.querySelector(".language-switcher")?.removeAttribute("open");
 
     triggerGoogleTranslate(language.code);
-
-    window.setTimeout(() => {
-      window.location.assign(buildLanguageUrl(language.code));
-    }, 120);
   }
 
   return (
@@ -143,7 +138,8 @@ export default function LanguageSwitcher() {
             role="option"
             aria-selected={language.code === activeLanguage}
             key={language.code}
-            onClick={(event) => selectLanguage(event, language)}
+            onPointerDown={() => prepareLanguageChange(language)}
+            onClick={() => prepareLanguageChange(language)}
           >
             <span>
               <strong>{language.nativeLabel}</strong>
