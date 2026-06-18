@@ -2873,6 +2873,27 @@ h1 {
     font-size: 14px;
   }
 
+  .header-actions {
+    gap: 8px;
+  }
+
+  .language-toggle {
+    min-height: 42px;
+    padding: 0 10px;
+    font-size: 13px;
+  }
+
+  .language-menu {
+    right: -2px;
+    width: min(248px, calc(100vw - 28px));
+    max-height: min(70vh, 430px);
+    overflow-y: auto;
+  }
+
+  .language-option {
+    min-height: 46px;
+  }
+
   .hero {
     min-height: 820px;
   }
@@ -3086,6 +3107,21 @@ h1 {
 }
 
 @media (max-width: 420px) {
+  .header-actions {
+    gap: 6px;
+  }
+
+  .language-toggle {
+    gap: 5px;
+    min-width: 72px;
+    padding: 0 8px;
+  }
+
+  .language-menu {
+    right: -94px;
+    width: calc(100vw - 24px);
+  }
+
   .header-cta svg {
     display: none;
   }

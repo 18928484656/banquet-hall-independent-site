@@ -174,7 +174,7 @@ NS3.DNSOWL.COM
 - 右下角 WhatsApp 浮动按钮。
 - B2B 询盘表单页。
 - Google Ads 极简高转化落地页。
-- 全站 7 种语言切换入口：English、Bahasa Melayu、Қазақша、العربية、Français、Español、中文。
+- 全站 8 种语言切换入口：English、Bahasa Melayu、Русский、Қазақша、العربية、Français、Español、中文。
 - SEO 基础文件：`robots.js`、`sitemap.js`。
 - 博客数据和博客页面结构。
 
