@@ -17,7 +17,6 @@ import {
 } from "lucide-react";
 import InquiryForm from "./inquiry/InquiryForm";
 import SiteHeader from "./components/SiteHeader";
-import SoundHeroVideo from "./components/SoundHeroVideo";
 import { caseStudies, markets } from "./data/site";
 import { company } from "./data/company";
 
@@ -98,7 +97,59 @@ export default function HomePage() {
         DINGSHENG Luxury Banquet Hall Design, Procurement and Global EPC Installation
       </h1>
 
-      <SoundHeroVideo />
+      <section className="hero">
+        <Image
+          className="hero-video"
+          src="/assets/hero-banquet-epc-premium.png"
+          alt="Luxury banquet hall EPC design and construction by DINGSHENG"
+          fill
+          sizes="100vw"
+          priority
+          loading="eager"
+        />
+        <div className="hero-shade"></div>
+        <div className="hero-content">
+          <p className="eyebrow">China-Based Banquet Hall EPC Delivery</p>
+          <h2>One Chinese team for design, procurement, construction and global installation.</h2>
+          <p className="hero-copy">
+            DINGSHENG helps hotel owners, wedding venue investors and event center operators build
+            high-value banquet spaces through Chinese designers, engineers, factories and overseas
+            installation teams.
+          </p>
+          <div className="hero-points" aria-label="Core delivery strengths">
+            <span>
+              <CheckCircle2 size={17} />
+              Chinese Design Team
+            </span>
+            <span>
+              <CheckCircle2 size={17} />
+              Factory Procurement
+            </span>
+            <span>
+              <CheckCircle2 size={17} />
+              Global On-Site Installation
+            </span>
+          </div>
+          <div className="hero-actions">
+            <a className="btn btn-primary" href="/inquiry">
+              Get EPC Proposal
+              <ArrowRight size={18} />
+            </a>
+            <a className="btn btn-secondary" href="/projects">
+              View Project Cases
+              <ChevronRight size={18} />
+            </a>
+          </div>
+        </div>
+        <div className="hero-video-label" aria-hidden="true">
+          <span>Turnkey Project Partner</span>
+          <strong>No middlemen. One accountable China team.</strong>
+        </div>
+        <div className="hero-scroll-cue" aria-hidden="true">
+          <span></span>
+          Explore
+        </div>
+      </section>
 
       <section className="proof-strip" aria-label="Company proof">
         {proof.map(([value, label]) => (

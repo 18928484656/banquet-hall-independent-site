@@ -141,8 +141,8 @@ NameSilo DNS 推荐记录：
 ## 6. 已完成功能
 
 - 鼎胜 Logo 已替换为 `/assets/dingsheng-logo.jpg`。
-- 首页加入震撼视频首屏和视频弹窗播放体验。
-- 首页视频支持全屏弹窗、播放、暂停、静音、进度条、关闭等控制。
+- 首页使用高端宴会厅静态视觉首屏，不再使用打开即出现的视频弹窗。
+- 已移除首页视频弹窗播放入口，避免影响客户第一屏浏览。
 - 顶部导航和超级菜单已优化为黑金磨砂风格。
 - 全站语言切换入口已加入，顺序为：English、Bahasa Melayu、Қазақша、العربية、Français、Español、中文。
 - 服务页文案已强化为“中国设计 + 中国采购 + 中国施工团队全球交付”的 EPC 一站式表达。
@@ -368,7 +368,6 @@ app/components/SiteHeader.jsx
 app/components/SiteFooter.jsx
 app/components/FloatingWhatsAppButton.jsx
 app/components/LanguageSwitcher.jsx
-app/components/SoundHeroVideo.jsx
 app/services/page.jsx
 app/design-styles/page.jsx
 app/projects/page.jsx
