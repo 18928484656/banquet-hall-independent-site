@@ -9,7 +9,6 @@ const languages = [
   { code: "ru", short: "RU", label: "Russian", nativeLabel: "Русский", dir: "ltr" },
   { code: "uz", short: "UZ", label: "Central Asia", nativeLabel: "O'zbekcha", dir: "ltr" },
   { code: "ar", short: "AR", label: "Arabic", nativeLabel: "العربية", dir: "rtl" },
-  { code: "fr", short: "FR", label: "French", nativeLabel: "Français", dir: "ltr" },
   { code: "es", short: "ES", label: "Spanish", nativeLabel: "Español", dir: "ltr" },
   { code: "zh-CN", short: "ZH", label: "Chinese", nativeLabel: "中文", dir: "ltr" }
 ];
