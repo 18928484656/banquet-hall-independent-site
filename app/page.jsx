@@ -5,6 +5,7 @@ import {
   CheckCircle2,
   ChevronRight,
   DraftingCompass,
+  ExternalLink,
   Globe2,
   Hammer,
   Headphones,
@@ -12,6 +13,7 @@ import {
   Mail,
   MapPin,
   MessageCircle,
+  Navigation,
   Wand2
 } from "lucide-react";
 import InquiryForm from "./inquiry/InquiryForm";
@@ -316,6 +318,45 @@ export default function HomePage() {
           </div>
         </div>
         <InquiryForm />
+      </section>
+
+      <section className="map-section home-map-section">
+        <div className="map-copy">
+          <p className="section-kicker">Company Location</p>
+          <h2>Find DINGSHENG's Foshan project office on the map.</h2>
+          <div className="map-address-card">
+            <span className="map-card-icon">
+              <Building2 size={22} />
+            </span>
+            <div>
+              <strong>{company.legalName}</strong>
+              <p>{company.addressCn}</p>
+              <p>{company.addressEn}</p>
+            </div>
+          </div>
+          <div className="map-actions">
+            <a className="btn btn-primary" href={company.mapSearch} target="_blank" rel="noreferrer">
+              <Navigation size={18} />
+              Open in OpenStreetMap
+            </a>
+            <a className="btn btn-dark" href="/contact">
+              Contact Office
+              <ExternalLink size={16} />
+            </a>
+          </div>
+        </div>
+        <div className="map-frame-wrap">
+          <iframe
+            title="DINGSHENG Foshan office location map"
+            src={company.mapEmbed}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+          <a className="map-source-link" href={company.mapLarge} target="_blank" rel="noreferrer">
+            View larger map
+            <ExternalLink size={14} />
+          </a>
+        </div>
       </section>
     </main>
   );
