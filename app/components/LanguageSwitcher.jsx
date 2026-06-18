@@ -5,12 +5,12 @@ import { Check, ChevronDown, Globe2 } from "lucide-react";
 
 const languages = [
   { code: "en", short: "EN", label: "English", nativeLabel: "English", dir: "ltr" },
+  { code: "ms", short: "MS", label: "Malay", nativeLabel: "Bahasa Melayu", dir: "ltr" },
+  { code: "kk", short: "KK", label: "Central Asia", nativeLabel: "Қазақша", dir: "ltr" },
+  { code: "ar", short: "AR", label: "Arabic", nativeLabel: "العربية", dir: "rtl" },
   { code: "fr", short: "FR", label: "French", nativeLabel: "Français", dir: "ltr" },
   { code: "es", short: "ES", label: "Spanish", nativeLabel: "Español", dir: "ltr" },
-  { code: "ms", short: "MS", label: "Malay", nativeLabel: "Bahasa Melayu", dir: "ltr" },
-  { code: "zh-CN", short: "ZH", label: "Chinese", nativeLabel: "中文", dir: "ltr" },
-  { code: "ar", short: "AR", label: "Arabic", nativeLabel: "العربية", dir: "rtl" },
-  { code: "kk", short: "KK", label: "Central Asia", nativeLabel: "Қазақша", dir: "ltr" }
+  { code: "zh-CN", short: "ZH", label: "Chinese", nativeLabel: "中文", dir: "ltr" }
 ];
 
 function getCookieDomain() {
