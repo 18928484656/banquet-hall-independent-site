@@ -44,7 +44,7 @@ export default function ProjectsPage() {
                   controls
                   muted
                   playsInline
-                  preload="metadata"
+                  preload="none"
                   aria-label={`${item.title} project video`}
                 />
               ) : (

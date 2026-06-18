@@ -3,6 +3,7 @@ node_modules/
 .next-stale-*/
 out/
 .tools/
+video-tools-temp/
 visual-check/
 .DS_Store
 npm-debug.log*

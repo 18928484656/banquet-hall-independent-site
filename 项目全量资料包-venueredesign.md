@@ -148,6 +148,7 @@ NameSilo DNS 推荐记录：
 - 服务页文案已强化为“中国设计 + 中国采购 + 中国施工团队全球交付”的 EPC 一站式表达。
 - 案例页已加入 10 个中国城市工程视频案例。
 - 每个案例包含视频、地点、时间、面积、工期、交付内容、项目挑战和结果。
+- 10 个案例视频已统一优化为 10 秒以内、960x540、24fps、H.264 快速播放版本，减少弹窗和详情页播放卡顿。
 - 联系页加入 OpenStreetMap 地址展示。
 - 右下角加入 WhatsApp 固定联系按钮。
 - B2B 询盘表单页已完成。
@@ -244,6 +245,15 @@ public/assets/videos/dingsheng-case-08.mp4
 public/assets/videos/dingsheng-case-09.mp4
 public/assets/videos/dingsheng-case-10.mp4
 ```
+
+案例视频优化标准：
+
+- 最长 10 秒。
+- 960x540 网页展示尺寸。
+- 24fps。
+- H.264 / MP4。
+- `faststart`，方便浏览器快速开始播放。
+- 去掉音频轨道，减少体积；网站案例视频默认静音。
 
 案例封面：
 
