@@ -144,7 +144,7 @@ NameSilo DNS 推荐记录：
 - 首页使用高端宴会厅静态视觉首屏，不再使用打开即出现的视频弹窗。
 - 已移除首页视频弹窗播放入口，避免影响客户第一屏浏览。
 - 顶部导航和超级菜单已优化为黑金磨砂风格。
-- 全站语言切换入口已加入，顺序为：English、Bahasa Melayu、Русский、Қазақша、العربية、Français、Español、中文。
+- 全站语言切换入口已加入，顺序为：English、Bahasa Melayu、Русский、O'zbekcha、العربية、Français、Español、中文。
 - 服务页文案已强化为“中国设计 + 中国采购 + 中国施工团队全球交付”的 EPC 一站式表达。
 - 案例页已加入 10 个中国城市工程视频案例。
 - 每个案例包含视频、地点、时间、面积、工期、交付内容、项目挑战和结果。
@@ -210,7 +210,7 @@ app/components/LanguageSwitcher.jsx
 1. English
 2. Bahasa Melayu
 3. Русский
-4. Қазақша
+4. O'zbekcha
 5. العربية
 6. Français
 7. Español

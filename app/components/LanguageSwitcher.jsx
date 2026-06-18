@@ -7,27 +7,29 @@ const languages = [
   { code: "en", short: "EN", label: "English", nativeLabel: "English", dir: "ltr" },
   { code: "ms", short: "MS", label: "Malay", nativeLabel: "Bahasa Melayu", dir: "ltr" },
   { code: "ru", short: "RU", label: "Russian", nativeLabel: "Русский", dir: "ltr" },
-  { code: "kk", short: "KK", label: "Central Asia", nativeLabel: "Қазақша", dir: "ltr" },
+  { code: "uz", short: "UZ", label: "Central Asia", nativeLabel: "O'zbekcha", dir: "ltr" },
   { code: "ar", short: "AR", label: "Arabic", nativeLabel: "العربية", dir: "rtl" },
   { code: "fr", short: "FR", label: "French", nativeLabel: "Français", dir: "ltr" },
   { code: "es", short: "ES", label: "Spanish", nativeLabel: "Español", dir: "ltr" },
   { code: "zh-CN", short: "ZH", label: "Chinese", nativeLabel: "中文", dir: "ltr" }
 ];
 
-function getCookieDomain() {
-  if (typeof window === "undefined") return "";
+function getCookieDomains() {
+  if (typeof window === "undefined") return [""];
 
   const { hostname } = window.location;
-  if (hostname === "localhost" || hostname === "127.0.0.1") return "";
-  if (hostname.endsWith("venueredesign.com")) return ";domain=.venueredesign.com";
-  return "";
+  if (hostname === "localhost" || hostname === "127.0.0.1") return [""];
+  if (hostname.endsWith("venueredesign.com")) return ["", ";domain=.venueredesign.com"];
+  return [""];
 }
 
 function setTranslateCookie(languageCode) {
-  const cookieDomain = getCookieDomain();
+  const cookieDomains = getCookieDomains();
   const value = languageCode === "en" ? "/en/en" : `/en/${languageCode}`;
-  const cookie = `googtrans=${value};path=/;max-age=31536000${cookieDomain};SameSite=Lax`;
-  document.cookie = cookie;
+
+  cookieDomains.forEach((cookieDomain) => {
+    document.cookie = `googtrans=${value};path=/;max-age=31536000${cookieDomain};SameSite=Lax`;
+  });
 }
 
 function triggerGoogleTranslate(languageCode) {
@@ -35,8 +37,17 @@ function triggerGoogleTranslate(languageCode) {
   if (!combo) return false;
 
   combo.value = languageCode;
-  combo.dispatchEvent(new Event("change"));
+  combo.dispatchEvent(new Event("change", { bubbles: true }));
   return true;
+}
+
+function buildLanguageUrl(languageCode) {
+  if (typeof window === "undefined") return `?site-language=${languageCode}`;
+
+  const url = new URL(window.location.href);
+  url.searchParams.set("site-language", languageCode);
+  url.searchParams.set("language-refresh", Date.now().toString());
+  return url.toString();
 }
 
 export default function LanguageSwitcher() {
@@ -69,6 +80,7 @@ export default function LanguageSwitcher() {
 
       if (selected !== "en") {
         setTimeout(() => triggerGoogleTranslate(selected), 700);
+        setTimeout(() => triggerGoogleTranslate(selected), 1600);
       }
     };
 
@@ -87,12 +99,13 @@ export default function LanguageSwitcher() {
     if (languageFromUrl) {
       const cleanUrl = new URL(window.location.href);
       cleanUrl.searchParams.delete("site-language");
+      cleanUrl.searchParams.delete("language-refresh");
       window.history.replaceState({}, "", cleanUrl.toString());
     }
   }, []);
 
   function getLanguageHref(languageCode) {
-    return `?site-language=${languageCode}`;
+    return buildLanguageUrl(languageCode);
   }
 
   function selectLanguage(event, language) {
@@ -104,14 +117,11 @@ export default function LanguageSwitcher() {
     setTranslateCookie(language.code);
     document.querySelector(".language-switcher")?.removeAttribute("open");
 
-    const translated = triggerGoogleTranslate(language.code);
-    if (!translated) {
-      window.setTimeout(() => {
-        if (!triggerGoogleTranslate(language.code)) {
-          window.location.reload();
-        }
-      }, 700);
-    }
+    triggerGoogleTranslate(language.code);
+
+    window.setTimeout(() => {
+      window.location.assign(buildLanguageUrl(language.code));
+    }, 120);
   }
 
   return (
