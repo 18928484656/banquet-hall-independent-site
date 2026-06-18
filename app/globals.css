@@ -2918,14 +2918,16 @@ h1 {
   .language-menu {
     right: -2px;
     width: min(248px, calc(100vw - 28px));
-    max-height: min(58vh, 360px);
+    max-height: min(74vh, 500px);
     overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
   }
 
   .language-option {
-    min-height: 42px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    min-height: 40px;
+    padding-top: 6px;
+    padding-bottom: 6px;
   }
 
   .hero {
@@ -3153,11 +3155,25 @@ h1 {
 
   .language-menu {
     position: fixed;
-    top: 74px;
+    top: 96px;
     right: 12px;
     left: 12px;
     width: auto;
-    max-height: min(62vh, 372px);
+    max-height: min(72svh, 510px);
+    padding: 7px;
+  }
+
+  .language-option {
+    min-height: 39px;
+    padding: 5px 10px;
+  }
+
+  .language-option strong {
+    font-size: 13px;
+  }
+
+  .language-option small {
+    font-size: 10px;
   }
 
   .header-cta svg {
