@@ -3118,8 +3118,11 @@ h1 {
   }
 
   .language-menu {
-    right: -94px;
-    width: calc(100vw - 24px);
+    position: fixed;
+    top: 82px;
+    right: 12px;
+    left: 12px;
+    width: auto;
   }
 
   .header-cta svg {
