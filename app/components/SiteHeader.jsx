@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ArrowRight, ChevronRight, MapPin, MessageCircle, Workflow } from "lucide-react";
 import { markets, megaServices, megaSolutions } from "../data/site";
 import { company } from "../data/company";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function SiteHeader() {
   return (
@@ -66,10 +67,13 @@ export default function SiteHeader() {
         <a href="/inquiry">Inquiry</a>
         <a href="/contact">Contact</a>
       </nav>
-      <a className="header-cta" href={company.whatsappHref}>
-        <MessageCircle size={18} />
-        WhatsApp
-      </a>
+      <div className="header-actions">
+        <LanguageSwitcher />
+        <a className="header-cta" href={company.whatsappHref}>
+          <MessageCircle size={18} />
+          WhatsApp
+        </a>
+      </div>
     </header>
   );
 }
