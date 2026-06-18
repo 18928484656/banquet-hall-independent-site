@@ -127,7 +127,7 @@ export default async function ProjectDetailPage({ params }) {
           </div>
         </div>
         <div className="project-story-video">
-          <video src={item.video} poster={item.image} controls muted playsInline preload="metadata" aria-label={`${item.title} video`} />
+          <video src={item.video} poster={item.image} controls playsInline preload="metadata" aria-label={`${item.title} video`} />
         </div>
       </section>
 

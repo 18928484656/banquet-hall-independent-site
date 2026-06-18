@@ -42,7 +42,6 @@ export default function ProjectsPage() {
                   src={item.video}
                   poster={item.image}
                   controls
-                  muted
                   playsInline
                   preload="none"
                   aria-label={`${item.title} project video`}
