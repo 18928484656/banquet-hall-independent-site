@@ -60,7 +60,6 @@ export default function SiteHeader() {
           </div>
         </div>
         <a href="/design-styles">Design Styles</a>
-        <a href="/#engineering">Engineering</a>
         <a href="/projects">Projects</a>
         <a href="/blog">Blog</a>
         <a href="/about">About</a>

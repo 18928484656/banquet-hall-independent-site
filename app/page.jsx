@@ -4,7 +4,6 @@ import {
   Building2,
   CheckCircle2,
   ChevronRight,
-  ClipboardCheck,
   DraftingCompass,
   Globe2,
   Hammer,
@@ -211,49 +210,6 @@ export default function HomePage() {
               </div>
             </article>
           ))}
-        </div>
-      </section>
-
-      <section id="engineering" className="section split">
-        <div className="media-panel">
-          <Image
-            src="/assets/classic-luxury-hall.png"
-            alt="Classic luxury banquet hall project rendering"
-            fill
-            sizes="(max-width: 900px) 100vw, 46vw"
-          />
-          <div className="media-badge">
-            <ClipboardCheck size={18} />
-            In-house design and construction control
-          </div>
-        </div>
-        <div className="split-copy">
-          <p className="section-kicker">Engineering Capability</p>
-          <h2>Built for real project execution, not only beautiful concepts.</h2>
-          <p>
-            The team combines a 16-member design group, experienced construction specialists,
-            direct construction management and a Foshan-based building-material supply network.
-            This helps projects control design quality, material cost, schedule risk and final
-            installation quality.
-          </p>
-          <ul className="check-list">
-            <li>
-              <CheckCircle2 size={18} />
-              Concept design, construction drawings and material coordination
-            </li>
-            <li>
-              <CheckCircle2 size={18} />
-              Lighting, LED screen, sound and smart control integration
-            </li>
-            <li>
-              <CheckCircle2 size={18} />
-              Procurement support, quality documents and installation guidance
-            </li>
-            <li>
-              <CheckCircle2 size={18} />
-              Operation support for launch planning, marketing and process training
-            </li>
-          </ul>
         </div>
       </section>
 
