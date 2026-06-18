@@ -119,9 +119,10 @@ export default function LanguageSwitcher() {
   }
 
   return (
-    <details className="language-switcher">
+    <details className="language-switcher notranslate" translate="no">
       <summary
-        className="language-toggle"
+        className="language-toggle notranslate"
+        translate="no"
         aria-label={`Change website language, current language ${active.label}`}
       >
         <Globe2 size={17} />
@@ -129,10 +130,11 @@ export default function LanguageSwitcher() {
         <ChevronDown size={14} />
       </summary>
       <div id="google_translate_element" className="google-translate-root" aria-hidden="true" />
-      <div className="language-menu" role="listbox" aria-label="Website language">
+      <div className="language-menu notranslate" translate="no" role="listbox" aria-label="Website language">
         {languages.map((language) => (
           <a
-            className="language-option"
+            className="language-option notranslate"
+            translate="no"
             href={getLanguageHref(language.code)}
             role="option"
             aria-selected={language.code === activeLanguage}

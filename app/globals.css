@@ -478,8 +478,22 @@ textarea {
 }
 
 .goog-te-banner-frame,
-iframe.skiptranslate {
+iframe.skiptranslate,
+#goog-gt-tt,
+.goog-gt-tt,
+.goog-tooltip,
+.goog-tooltip:hover,
+.goog-text-highlight,
+.goog-te-balloon-frame,
+.VIpgJd-ZVi9od-xl07Ob-OEVmcd,
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf,
+.VIpgJd-ZVi9od-aZ2wEe-OiiCO {
   display: none !important;
+}
+
+.goog-text-highlight {
+  background: transparent !important;
+  box-shadow: none !important;
 }
 
 body {
@@ -2904,12 +2918,14 @@ h1 {
   .language-menu {
     right: -2px;
     width: min(248px, calc(100vw - 28px));
-    max-height: min(70vh, 430px);
+    max-height: min(58vh, 360px);
     overflow-y: auto;
   }
 
   .language-option {
-    min-height: 46px;
+    min-height: 42px;
+    padding-top: 7px;
+    padding-bottom: 7px;
   }
 
   .hero {
@@ -3137,10 +3153,11 @@ h1 {
 
   .language-menu {
     position: fixed;
-    top: 82px;
+    top: 74px;
     right: 12px;
     left: 12px;
     width: auto;
+    max-height: min(62vh, 372px);
   }
 
   .header-cta svg {
