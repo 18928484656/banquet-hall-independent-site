@@ -500,6 +500,453 @@ body {
   top: 0 !important;
 }
 
+.grammy-inspired-home {
+  background: #080706;
+  color: var(--white);
+}
+
+.editorial-hero {
+  position: relative;
+  min-height: 100svh;
+  display: grid;
+  align-items: end;
+  overflow: hidden;
+  padding: 168px max(20px, calc((100% - 1180px) / 2)) 86px;
+  background: #050505;
+}
+
+.editorial-hero-bg {
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.02);
+}
+
+.editorial-hero-shade {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.34) 52%, rgba(0, 0, 0, 0.8)),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.86), transparent 42%),
+    radial-gradient(circle at 76% 34%, rgba(212, 175, 55, 0.2), transparent 32%);
+}
+
+.editorial-hero-inner {
+  position: relative;
+  z-index: 2;
+  width: min(920px, 100%);
+  display: grid;
+  gap: 22px;
+}
+
+.editorial-hero-inner h2 {
+  margin: 0;
+  max-width: 920px;
+  color: var(--white);
+  font-family: var(--font-display);
+  font-size: clamp(50px, 6.2vw, 88px);
+  font-weight: 900;
+  line-height: 0.92;
+  letter-spacing: 0;
+}
+
+.editorial-hero-inner > p:not(.section-kicker) {
+  max-width: 690px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: clamp(18px, 2vw, 23px);
+  line-height: 1.52;
+}
+
+.editorial-points {
+  max-width: 760px;
+}
+
+.editorial-hero-note {
+  position: absolute;
+  z-index: 2;
+  right: max(20px, calc((100% - 1180px) / 2));
+  bottom: 92px;
+  display: grid;
+  gap: 5px;
+  width: min(300px, calc(100% - 40px));
+  padding: 18px 20px;
+  border: 1px solid rgba(242, 217, 130, 0.36);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.42);
+  backdrop-filter: blur(18px);
+}
+
+.editorial-hero-note strong {
+  color: var(--gold-soft);
+  font-size: 18px;
+}
+
+.editorial-hero-note span {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.brand-story-section,
+.service-ritual-section,
+.featured-case-editorial,
+.honor-section,
+.destination-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: 54px;
+  align-items: center;
+  padding: 108px max(20px, calc((100% - 1180px) / 2));
+}
+
+.brand-story-section {
+  background:
+    radial-gradient(circle at 8% 8%, rgba(212, 175, 55, 0.15), transparent 32%),
+    linear-gradient(135deg, #f5f0e7, #e7decf);
+  color: var(--ink);
+}
+
+.brand-story-copy,
+.service-ritual-copy,
+.featured-case-copy,
+.honor-copy {
+  display: grid;
+  gap: 18px;
+}
+
+.brand-story-copy h2,
+.service-ritual-copy h2,
+.featured-case-copy h2,
+.honor-copy h2,
+.destination-section h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(42px, 5vw, 74px);
+  line-height: 0.96;
+  letter-spacing: 0;
+}
+
+.brand-story-copy p,
+.service-ritual-copy p,
+.featured-case-copy p,
+.honor-copy p,
+.center-heading p,
+.destination-section p {
+  margin: 0;
+  color: rgba(20, 18, 14, 0.72);
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.theme-selection-section .center-heading p,
+.delivery-timeline-section .center-heading p,
+.gallery-mosaic-section .center-heading p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.brand-story-media {
+  position: relative;
+  min-height: 570px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 34px 90px rgba(0, 0, 0, 0.24);
+}
+
+.brand-story-media img,
+.theme-showcase-card img,
+.gallery-mosaic img {
+  object-fit: cover;
+}
+
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  color: var(--gold);
+  font-weight: 900;
+}
+
+.theme-selection-section,
+.delivery-timeline-section,
+.gallery-mosaic-section {
+  padding: 108px max(20px, calc((100% - 1180px) / 2));
+  background: #080706;
+  color: var(--white);
+}
+
+.center-heading {
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  max-width: 920px;
+  margin: 0 auto 42px;
+  text-align: center;
+}
+
+.center-heading h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(42px, 5.7vw, 82px);
+  line-height: 0.95;
+  letter-spacing: 0;
+}
+
+.theme-showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.theme-showcase-card {
+  position: relative;
+  min-height: 560px;
+  overflow: hidden;
+  border-radius: 8px;
+  color: var(--white);
+  background: #111;
+}
+
+.theme-showcase-card::after,
+.gallery-mosaic a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.78), transparent 56%),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.32), transparent);
+}
+
+.theme-showcase-card div {
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  bottom: 22px;
+  left: 20px;
+  display: grid;
+  gap: 8px;
+}
+
+.theme-showcase-card span,
+.gallery-mosaic span {
+  color: var(--gold-soft);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.theme-showcase-card h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 31px;
+  line-height: 0.96;
+  letter-spacing: 0;
+}
+
+.theme-showcase-card p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.service-ritual-section {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(238, 231, 218, 0.98)),
+    #f5f0e7;
+  color: var(--ink);
+}
+
+.service-ritual-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.service-ritual-grid article,
+.delivery-timeline article,
+.honor-grid article {
+  display: grid;
+  gap: 12px;
+  min-height: 220px;
+  padding: 24px;
+  border: 1px solid rgba(139, 111, 35, 0.18);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.service-ritual-grid svg,
+.honor-grid svg {
+  color: var(--gold);
+}
+
+.service-ritual-grid h3,
+.delivery-timeline h3 {
+  margin: 0;
+  font-size: 21px;
+  line-height: 1.15;
+}
+
+.service-ritual-grid p,
+.delivery-timeline p {
+  margin: 0;
+  color: rgba(20, 18, 14, 0.66);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.delivery-timeline {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.delivery-timeline article {
+  min-height: 250px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(212, 175, 55, 0.04)),
+    rgba(255, 255, 255, 0.04);
+  color: var(--white);
+}
+
+.delivery-timeline span {
+  color: var(--gold-soft);
+  font-family: var(--font-display);
+  font-size: 42px;
+  line-height: 1;
+}
+
+.delivery-timeline p {
+  color: rgba(255, 255, 255, 0.66);
+}
+
+.featured-case-editorial {
+  background:
+    radial-gradient(circle at 82% 18%, rgba(212, 175, 55, 0.14), transparent 34%),
+    #0f0d0a;
+}
+
+.featured-case-copy h2,
+.featured-case-copy p,
+.honor-copy h2,
+.honor-copy p,
+.destination-section h2 {
+  color: var(--white);
+}
+
+.featured-case-video {
+  overflow: hidden;
+  border: 1px solid rgba(242, 217, 130, 0.22);
+  border-radius: 10px;
+  background: #000;
+  box-shadow: 0 32px 90px rgba(0, 0, 0, 0.42);
+}
+
+.featured-case-video video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.gallery-mosaic {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.gallery-mosaic a {
+  position: relative;
+  min-height: 260px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #111;
+}
+
+.gallery-mosaic a:nth-child(1),
+.gallery-mosaic a:nth-child(6) {
+  grid-column: span 2;
+  min-height: 340px;
+}
+
+.gallery-mosaic span {
+  position: absolute;
+  z-index: 1;
+  right: 16px;
+  bottom: 16px;
+  left: 16px;
+}
+
+.honor-section {
+  background:
+    linear-gradient(145deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.68)),
+    url("/assets/ocean-breeze-hall.png") center / cover;
+}
+
+.honor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.honor-grid article {
+  min-height: 172px;
+  background: rgba(0, 0, 0, 0.52);
+  border-color: rgba(242, 217, 130, 0.24);
+  color: var(--white);
+  backdrop-filter: blur(16px);
+}
+
+.honor-grid strong {
+  color: var(--gold-soft);
+  font-family: var(--font-display);
+  font-size: 54px;
+  line-height: 0.9;
+}
+
+.honor-grid span {
+  color: rgba(255, 255, 255, 0.76);
+  font-weight: 800;
+}
+
+.destination-section {
+  grid-template-columns: minmax(0, 0.76fr) minmax(0, 1.24fr);
+  background: #f4efe5;
+  color: var(--ink);
+}
+
+.destination-section h2 {
+  color: var(--ink);
+}
+
+.destination-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.destination-list span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 16px;
+  border: 1px solid rgba(139, 111, 35, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.62);
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.editorial-contact {
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.66)),
+    url("/assets/case-hotel-ballroom-renovation.png") center / cover;
+}
+
 .hero {
   position: relative;
   display: grid;
@@ -2889,6 +3336,97 @@ h1 {
 }
 
 @media (max-width: 760px) {
+  .editorial-hero {
+    min-height: 820px;
+    padding: 124px 14px 64px;
+    align-items: center;
+  }
+
+  .editorial-hero-inner {
+    gap: 18px;
+  }
+
+  .editorial-hero-inner h2 {
+    font-size: 36px;
+    line-height: 0.96;
+  }
+
+  .editorial-hero-inner > p:not(.section-kicker) {
+    font-size: 16px;
+  }
+
+  .editorial-hero-note {
+    display: none;
+  }
+
+  .brand-story-section,
+  .service-ritual-section,
+  .featured-case-editorial,
+  .honor-section,
+  .destination-section,
+  .theme-selection-section,
+  .delivery-timeline-section,
+  .gallery-mosaic-section {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 72px 14px;
+  }
+
+  .brand-story-copy h2,
+  .service-ritual-copy h2,
+  .featured-case-copy h2,
+  .honor-copy h2,
+  .destination-section h2,
+  .center-heading h2 {
+    font-size: 42px;
+  }
+
+  .brand-story-media {
+    min-height: 390px;
+  }
+
+  .center-heading {
+    justify-items: start;
+    text-align: left;
+    margin-bottom: 26px;
+  }
+
+  .theme-showcase-grid,
+  .service-ritual-grid,
+  .delivery-timeline,
+  .honor-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .theme-showcase-card {
+    min-height: 430px;
+  }
+
+  .service-ritual-grid article,
+  .delivery-timeline article,
+  .honor-grid article {
+    min-height: auto;
+  }
+
+  .featured-case-editorial {
+    align-items: start;
+  }
+
+  .gallery-mosaic {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery-mosaic a,
+  .gallery-mosaic a:nth-child(1),
+  .gallery-mosaic a:nth-child(6) {
+    grid-column: span 1;
+    min-height: 220px;
+  }
+
+  .destination-list {
+    justify-content: flex-start;
+  }
+
   .site-header {
     top: 10px;
     width: calc(100% - 20px);
