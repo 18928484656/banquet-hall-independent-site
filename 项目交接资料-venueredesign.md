@@ -165,6 +165,7 @@ NS3.DNSOWL.COM
 - 鼎胜新 Logo 替换，主要使用 `/assets/dingsheng-logo.jpg`。
 - 首页高端宴会厅静态视觉首屏体验。
 - 已移除首页打开即出现的视频弹窗播放逻辑，避免影响客户第一屏浏览。
+- 曾短暂参考 `grammywedding.com` 做过首页编辑式改版，已按用户要求撤回；当前正式站为原首页版本。
 - 服务页文案强化为“中国设计 + 中国采购 + 中国施工团队全球交付”的一站式 EPC 表达。
 - 顶部导航和超级菜单优化。
 - 案例页加入 10 个中国城市工程案例。
@@ -177,6 +178,12 @@ NS3.DNSOWL.COM
 - 全站 7 种语言切换入口：English、Bahasa Melayu、Русский、O'zbekcha、العربية、Español、中文。
 - SEO 基础文件：`robots.js`、`sitemap.js`。
 - 博客数据和博客页面结构。
+
+Code Test 基础验证命令：
+
+```bash
+/Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node node_modules/next/dist/bin/next build
+```
 
 ## 8. 视频与素材
 

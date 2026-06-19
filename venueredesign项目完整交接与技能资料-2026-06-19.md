@@ -139,6 +139,7 @@ NameSilo DNS 推荐记录：
 
 - 鼎胜 Logo 已替换为 `/assets/dingsheng-logo.jpg`。
 - 首页使用高端宴会厅静态视觉首屏，不再使用打开即出现的视频弹窗。
+- 曾短暂参考 `grammywedding.com` 做过首页编辑式改版，已按用户要求撤回；当前正式站为原首页版本，但保留语言、地图、询盘、视频、WhatsApp 等功能。
 - 顶部导航和超级菜单为黑金磨砂风格。
 - 已删除重复的主菜单 `Engineering` 和首页重复工程栏目。
 - 全站语言切换入口为 7 种：English、Bahasa Melayu、Русский、O'zbekcha、العربية、Español、中文。
@@ -372,6 +373,9 @@ app/globals.css
 ## 13. 最近重要提交
 
 ```text
+0f298df Revert "Redesign homepage with luxury banquet brand layout"
+c5ff2d2 Redesign homepage with luxury banquet brand layout
+a922480 Add complete project handoff markdown
 484856a Add homepage map and improve map visibility
 b02a8d6 Improve mobile language dropdown height
 287d0f3 Hide Google translate popups and lock language menu
@@ -386,7 +390,73 @@ a60990a Optimize project case videos
 011e431 Remove homepage video modal
 ```
 
-## 14. Codex 维护规则
+## 14. Code Test / Codex 验证清单
+
+后续每次修改网站，建议按以下顺序验证。
+
+### 14.1 构建测试
+
+优先使用：
+
+```bash
+/Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node node_modules/next/dist/bin/next build
+```
+
+通过标准：
+
+- Next.js 编译成功。
+- 静态页面生成成功。
+- `/`、`/services`、`/projects`、`/contact`、`/inquiry`、`/blog`、`/sitemap.xml`、`/robots.txt` 正常生成。
+
+### 14.2 首页检查
+
+- 首页保持当前原版高端宴会厅静态首屏。
+- 不恢复“一打开网站自动弹出视频播放”。
+- 不恢复 Grammy 风格改版，除非用户再次明确要求。
+- 首页保留询盘入口、项目案例入口、WhatsApp、地图模块。
+
+### 14.3 语言切换检查
+
+语言顺序必须保持：
+
+1. English
+2. Bahasa Melayu
+3. Русский
+4. O'zbekcha
+5. العربية
+6. Español
+7. 中文
+
+检查点：
+
+- 手机端下拉框能看到 `中文`。
+- 语言菜单不得出现 `Français / French`。
+- Google Translate 评分弹窗和原文提示应隐藏。
+- 语言菜单本身应保持 `notranslate`，避免被翻译乱。
+
+### 14.4 地图检查
+
+- 首页底部有 OpenStreetMap 地图。
+- `/contact` 页面有 OpenStreetMap 地图。
+- 地图 iframe 来源为 `company.mapEmbed`。
+- 地图在手机端有足够高度，不能显示成空白块。
+
+### 14.5 询盘检查
+
+- `/inquiry` 表单可见。
+- 首页和 Google Ads 落地页询盘表单可见。
+- 必填项校验正常。
+- Vercel 必须存在 QQ SMTP 环境变量。
+- 不要把 `SMTP_PASS` 写入代码或 Markdown。
+
+### 14.6 视频检查
+
+- 首页不自动播放视频弹窗。
+- 项目案例视频保留音频。
+- 视频控制条可用。
+- 案例视频应保持 10 秒以内、H.264 + AAC、faststart。
+
+## 15. Codex 维护规则
 
 后续 Codex 修改网站时应遵守：
 
@@ -399,7 +469,7 @@ a60990a Optimize project case videos
 - 修改完成后提交并推送到 GitHub `main`，Vercel 会自动部署。
 - 如果正式站没立刻更新，等待 Vercel 部署和浏览器缓存刷新。
 
-## 15. 技能包位置
+## 16. 技能包位置
 
 当前 Codex 技能包：
 

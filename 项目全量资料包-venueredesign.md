@@ -143,6 +143,7 @@ NameSilo DNS 推荐记录：
 - 鼎胜 Logo 已替换为 `/assets/dingsheng-logo.jpg`。
 - 首页使用高端宴会厅静态视觉首屏，不再使用打开即出现的视频弹窗。
 - 已移除首页视频弹窗播放入口，避免影响客户第一屏浏览。
+- 曾短暂参考 `grammywedding.com` 做过首页编辑式改版，已按用户要求撤回；当前正式站为原首页版本。
 - 顶部导航和超级菜单已优化为黑金磨砂风格。
 - 全站语言切换入口已加入，顺序为：English、Bahasa Melayu、Русский、O'zbekcha、العربية、Español、中文。
 - 服务页文案已强化为“中国设计 + 中国采购 + 中国施工团队全球交付”的 EPC 一站式表达。
@@ -156,6 +157,12 @@ NameSilo DNS 推荐记录：
 - Google Ads 极简高转化落地页已完成。
 - SEO 基础文件 `robots.js`、`sitemap.js` 已完成。
 - 博客数据和博客页面结构已完成，包含 110 篇英文博客内容包。
+
+Code Test 基础验证命令：
+
+```bash
+/Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node node_modules/next/dist/bin/next build
+```
 
 ## 7. 询盘与邮箱
 
