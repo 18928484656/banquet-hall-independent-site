@@ -95,7 +95,7 @@ export default function HomePage() {
     <main>
       <SiteHeader />
       <h1 className="visually-hidden">
-        DINGSHENG Luxury Banquet Hall Design, Procurement and Global EPC Installation
+        Дизайн и обновление банкетных залов в Кыргызстане
       </h1>
 
       <section className="hero">
@@ -110,41 +110,40 @@ export default function HomePage() {
         />
         <div className="hero-shade"></div>
         <div className="hero-content">
-          <p className="eyebrow">China-Based Banquet Hall EPC Delivery</p>
-          <h2>One Chinese team for design, procurement, construction and global installation.</h2>
+          <p className="eyebrow">Решения для банкетных залов в Кыргызстане</p>
+          <h2>Дизайн и обновление банкетных залов в Кыргызстане</h2>
           <p className="hero-copy">
-            DINGSHENG helps hotel owners, wedding venue investors and event center operators build
-            high-value banquet spaces through Chinese designers, engineers, factories and overseas
-            installation teams.
+            3D-дизайн, поставки из Китая, LED-экраны, свет, мебель и сопровождение строительства
+            для владельцев банкетных залов, ресторанов и отелей.
           </p>
           <div className="hero-points" aria-label="Core delivery strengths">
             <span>
               <CheckCircle2 size={17} />
-              Chinese Design Team
+              3D-дизайн зала
             </span>
             <span>
               <CheckCircle2 size={17} />
-              Factory Procurement
+              Поставки из Китая
             </span>
             <span>
               <CheckCircle2 size={17} />
-              Global On-Site Installation
+              LED, свет и мебель
             </span>
           </div>
           <div className="hero-actions">
             <a className="btn btn-primary" href="/inquiry">
-              Get EPC Proposal
+              Получить проектное предложение
               <ArrowRight size={18} />
             </a>
             <a className="btn btn-secondary" href="/projects">
-              View Project Cases
+              Смотреть проекты
               <ChevronRight size={18} />
             </a>
           </div>
         </div>
         <div className="hero-video-label" aria-hidden="true">
-          <span>Turnkey Project Partner</span>
-          <strong>No middlemen. One accountable China team.</strong>
+          <span>Комплексное сопровождение</span>
+          <strong>Дизайн, поставки, свет, LED и строительство.</strong>
         </div>
         <div className="hero-scroll-cue" aria-hidden="true">
           <span></span>

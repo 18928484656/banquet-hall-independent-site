@@ -139,10 +139,11 @@ NameSilo DNS 推荐记录：
 
 - 鼎胜 Logo 已替换为 `/assets/dingsheng-logo.jpg`。
 - 首页使用高端宴会厅静态视觉首屏，不再使用打开即出现的视频弹窗。
+- 2026-06-25 已将首页首屏调整为吉尔吉斯斯坦投放版本：默认语言、`html lang`、默认 SEO Title 和首屏文案均改为俄语，主标题为 `Дизайн и обновление банкетных залов в Кыргызстане`。
 - 曾短暂参考 `grammywedding.com` 做过首页编辑式改版，已按用户要求撤回；当前正式站为原首页版本，但保留语言、地图、询盘、视频、WhatsApp 等功能。
 - 顶部导航和超级菜单为黑金磨砂风格。
 - 已删除重复的主菜单 `Engineering` 和首页重复工程栏目。
-- 全站语言切换入口为 7 种：English、Bahasa Melayu、Русский、O'zbekcha、العربية、Español、中文。
+- 全站语言切换入口为 7 种：Русский、English、Bahasa Melayu、O'zbekcha、العربية、Español、中文。
 - 手机端语言菜单已优化：中文可见，菜单不溢出。
 - Google Translate 评分弹窗和原文提示已隐藏。
 - 语言菜单已加 `notranslate`，避免被 Google 翻译乱改。
@@ -205,9 +206,9 @@ app/components/LanguageSwitcher.jsx
 
 当前语言顺序：
 
-1. English
-2. Bahasa Melayu
-3. Русский
+1. Русский
+2. English
+3. Bahasa Melayu
 4. O'zbekcha
 5. العربية
 6. Español
@@ -217,7 +218,7 @@ app/components/LanguageSwitcher.jsx
 
 - 顶部 Header 显示自定义黑金语言按钮。
 - 底层通过 Google Translate 初始化全站语言切换。
-- 默认页面语言为英文。
+- 默认页面语言为俄语，并用 `site-language-default-version` 做一次性默认语言迁移，避免旧设备缓存继续显示英文。
 - 阿拉伯语切换时设置 `dir="rtl"`。
 - 用户选择语言后写入 `localStorage` 和 `googtrans` cookie。
 - 语言菜单使用 `notranslate` 和 `translate="no"`，避免 Google 把语言选项翻译乱。
@@ -419,9 +420,9 @@ a60990a Optimize project case videos
 
 语言顺序必须保持：
 
-1. English
-2. Bahasa Melayu
-3. Русский
+1. Русский
+2. English
+3. Bahasa Melayu
 4. O'zbekcha
 5. العربية
 6. Español

@@ -4,14 +4,17 @@ import { useEffect, useMemo, useState } from "react";
 import { Check, ChevronDown, Globe2 } from "lucide-react";
 
 const languages = [
+  { code: "ru", short: "RU", label: "Russian", nativeLabel: "Русский", dir: "ltr" },
   { code: "en", short: "EN", label: "English", nativeLabel: "English", dir: "ltr" },
   { code: "ms", short: "MS", label: "Malay", nativeLabel: "Bahasa Melayu", dir: "ltr" },
-  { code: "ru", short: "RU", label: "Russian", nativeLabel: "Русский", dir: "ltr" },
   { code: "uz", short: "UZ", label: "Central Asia", nativeLabel: "O'zbekcha", dir: "ltr" },
   { code: "ar", short: "AR", label: "Arabic", nativeLabel: "العربية", dir: "rtl" },
   { code: "es", short: "ES", label: "Spanish", nativeLabel: "Español", dir: "ltr" },
   { code: "zh-CN", short: "ZH", label: "Chinese", nativeLabel: "中文", dir: "ltr" }
 ];
+
+const defaultLanguage = "ru";
+const defaultLanguageVersion = "kg-ru-2026-06-25";
 
 function getCookieDomains() {
   if (typeof window === "undefined") return [""];
@@ -50,7 +53,7 @@ function buildLanguageUrl(languageCode) {
 }
 
 export default function LanguageSwitcher() {
-  const [activeLanguage, setActiveLanguage] = useState("en");
+  const [activeLanguage, setActiveLanguage] = useState(defaultLanguage);
 
   const active = useMemo(
     () => languages.find((language) => language.code === activeLanguage) || languages[0],
@@ -59,10 +62,16 @@ export default function LanguageSwitcher() {
 
   useEffect(() => {
     const languageFromUrl = new URLSearchParams(window.location.search).get("site-language");
-    const savedLanguage = languageFromUrl || window.localStorage.getItem("site-language") || "en";
-    const selected = languages.some((language) => language.code === savedLanguage) ? savedLanguage : "en";
+    const storedLanguage = window.localStorage.getItem("site-language");
+    const storedDefaultVersion = window.localStorage.getItem("site-language-default-version");
+    const shouldUseNewDefault = !languageFromUrl && storedDefaultVersion !== defaultLanguageVersion;
+    const savedLanguage = shouldUseNewDefault
+      ? defaultLanguage
+      : languageFromUrl || storedLanguage || defaultLanguage;
+    const selected = languages.some((language) => language.code === savedLanguage) ? savedLanguage : defaultLanguage;
     setActiveLanguage(selected);
     window.localStorage.setItem("site-language", selected);
+    window.localStorage.setItem("site-language-default-version", defaultLanguageVersion);
     setTranslateCookie(selected);
 
     window.googleTranslateElementInit = () => {
