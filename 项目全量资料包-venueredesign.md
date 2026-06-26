@@ -145,8 +145,8 @@ NameSilo DNS 推荐记录：
 - 已移除首页视频弹窗播放入口，避免影响客户第一屏浏览。
 - 曾短暂参考 `grammywedding.com` 做过首页编辑式改版，已按用户要求撤回；当前正式站为原首页版本。
 - 顶部导航和超级菜单已优化为黑金磨砂风格。
-- 全站语言切换入口已加入，顺序为：Русский、English、Bahasa Melayu、O'zbekcha、العربية、Español、中文。
-- 2026-06-25 首页首屏已调整为吉尔吉斯斯坦投放版本，默认语言、`html lang` 和默认 SEO Title 为俄语，主标题为 `Дизайн и обновление банкетных залов в Кыргызстане`。
+- 全站语言切换入口已加入，顺序为：Қазақша、Русский、English、Bahasa Melayu、O'zbekcha、العربية、Español、中文。
+- 2026-06-26 首页首屏已调整为哈萨克斯坦投放版本，默认语言、`html lang` 和默认 SEO Title 为哈萨克语，主标题为 `Қазақстандағы банкет залдарының дизайны және жаңартылуы`。
 - 服务页文案已强化为“中国设计 + 中国采购 + 中国施工团队全球交付”的 EPC 一站式表达。
 - 案例页已加入 10 个中国城市工程视频案例。
 - 每个案例包含视频、地点、时间、面积、工期、交付内容、项目挑战和结果。
@@ -215,19 +215,20 @@ app/components/LanguageSwitcher.jsx
 
 当前语言顺序：
 
-1. Русский
-2. English
-3. Bahasa Melayu
-4. O'zbekcha
-5. العربية
-6. Español
-7. 中文
+1. Қазақша
+2. Русский
+3. English
+4. Bahasa Melayu
+5. O'zbekcha
+6. العربية
+7. Español
+8. 中文
 
 实现方式：
 
 - 顶部 Header 中显示自定义黑金语言按钮。
 - 底层通过 Google Translate 初始化全站语言切换。
-- 默认页面语言为俄语，并用 `site-language-default-version` 做一次性默认语言迁移，避免旧设备缓存继续显示英文。
+- 默认页面语言为哈萨克语，并用 `site-language-default-version` 做一次性默认语言迁移，避免旧设备缓存继续显示旧国家语言。
 - 阿拉伯语切换时设置 `dir="rtl"`。
 - 用户选择语言后写入 `localStorage` 和 `googtrans` cookie。
 

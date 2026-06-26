@@ -95,7 +95,7 @@ export default function HomePage() {
     <main>
       <SiteHeader />
       <h1 className="visually-hidden">
-        Дизайн и обновление банкетных залов в Кыргызстане
+        Қазақстандағы банкет залдарының дизайны және жаңартылуы
       </h1>
 
       <section className="hero">
@@ -110,40 +110,40 @@ export default function HomePage() {
         />
         <div className="hero-shade"></div>
         <div className="hero-content">
-          <p className="eyebrow">Решения для банкетных залов в Кыргызстане</p>
-          <h2>Дизайн и обновление банкетных залов в Кыргызстане</h2>
+          <p className="eyebrow">Қазақстандағы банкет залдарына арналған шешімдер</p>
+          <h2>Қазақстандағы банкет залдарының дизайны және жаңартылуы</h2>
           <p className="hero-copy">
-            3D-дизайн, поставки из Китая, LED-экраны, свет, мебель и сопровождение строительства
-            для владельцев банкетных залов, ресторанов и отелей.
+            3D-дизайн, Қытайдан жеткізу, LED-экрандар, жарық, жиһаз және банкет залдары,
+            мейрамханалар мен қонақүй иелері үшін құрылыс сүйемелдеуі.
           </p>
           <div className="hero-points" aria-label="Core delivery strengths">
             <span>
               <CheckCircle2 size={17} />
-              3D-дизайн зала
+              Залдың 3D-дизайны
             </span>
             <span>
               <CheckCircle2 size={17} />
-              Поставки из Китая
+              Қытайдан жеткізу
             </span>
             <span>
               <CheckCircle2 size={17} />
-              LED, свет и мебель
+              LED, жарық және жиһаз
             </span>
           </div>
           <div className="hero-actions">
             <a className="btn btn-primary" href="/inquiry">
-              Получить проектное предложение
+              Жобалық ұсыныс алу
               <ArrowRight size={18} />
             </a>
             <a className="btn btn-secondary" href="/projects">
-              Смотреть проекты
+              Жобаларды көру
               <ChevronRight size={18} />
             </a>
           </div>
         </div>
         <div className="hero-video-label" aria-hidden="true">
-          <span>Комплексное сопровождение</span>
-          <strong>Дизайн, поставки, свет, LED и строительство.</strong>
+          <span>Кешенді сүйемелдеу</span>
+          <strong>Дизайн, жеткізу, жарық, LED және құрылыс.</strong>
         </div>
         <div className="hero-scroll-cue" aria-hidden="true">
           <span></span>

@@ -5,9 +5,9 @@ import { company } from "./data/company";
 
 export const metadata = {
   metadataBase: new URL(company.website),
-  title: "DINGSHENG | Дизайн и обновление банкетных залов в Кыргызстане",
+  title: "DINGSHENG | Қазақстандағы банкет залдарының дизайны және жаңартылуы",
   description:
-    "3D-дизайн, поставки из Китая, LED-экраны, свет, мебель и сопровождение строительства для владельцев банкетных залов, ресторанов и отелей."
+    "3D-дизайн, Қытайдан жеткізу, LED-экрандар, жарық, жиһаз және банкет залдары, мейрамханалар мен қонақүй иелері үшін құрылыс сүйемелдеуі."
 };
 
 export default function RootLayout({ children }) {
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html lang="ru">
+    <html lang="kk">
       <body>
         <script
           type="application/ld+json"
