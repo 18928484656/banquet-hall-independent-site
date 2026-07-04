@@ -1,4 +1,5 @@
 export const GOOGLE_ADS_ID = "AW-18264996527";
+export const LEAD_CONVERSION_LABEL = "3A5zCJivxsocEK_1toVE";
 
 const leadConversionLabel = process.env.NEXT_PUBLIC_GOOGLE_ADS_LEAD_CONVERSION_LABEL;
 const whatsappConversionLabel = process.env.NEXT_PUBLIC_GOOGLE_ADS_WHATSAPP_CONVERSION_LABEL;

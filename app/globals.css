@@ -2840,6 +2840,61 @@ h1 {
   transform: translate(0, -50%);
 }
 
+.thank-you-section {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: 150px 22px 90px;
+  background:
+    linear-gradient(135deg, rgba(0, 0, 0, 0.82), rgba(21, 18, 11, 0.72)),
+    url("/assets/hero-banquet-epc-premium.png") center / cover;
+}
+
+.thank-you-card {
+  width: min(100%, 780px);
+  padding: clamp(30px, 5vw, 58px);
+  border: 1px solid rgba(240, 204, 103, 0.3);
+  border-radius: 10px;
+  background: rgba(12, 11, 8, 0.78);
+  box-shadow: 0 34px 90px rgba(0, 0, 0, 0.42);
+  color: #fff;
+  backdrop-filter: blur(18px);
+}
+
+.thank-you-icon {
+  width: 66px;
+  height: 66px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  border-radius: 50%;
+  background: rgba(222, 186, 76, 0.16);
+  color: var(--gold);
+}
+
+.thank-you-card h1 {
+  max-width: 700px;
+  margin: 0 0 18px;
+  font-size: clamp(42px, 6vw, 76px);
+  line-height: 0.94;
+}
+
+.thank-you-card p:not(.section-kicker) {
+  max-width: 650px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 18px;
+  line-height: 1.72;
+}
+
+.thank-you-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 34px;
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);
