@@ -1,7 +1,9 @@
 import "./globals.css";
 import SiteFooter from "./components/SiteFooter";
 import FloatingWhatsAppButton from "./components/FloatingWhatsAppButton";
+import GoogleAdsTracker from "./components/GoogleAdsTracker";
 import { company } from "./data/company";
+import { GOOGLE_ADS_ID } from "./lib/googleAds";
 
 export const metadata = {
   metadataBase: new URL(company.website),
@@ -32,6 +34,19 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="kk">
+      <head>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GOOGLE_ADS_ID}');
+            `
+          }}
+        />
+      </head>
       <body>
         <script
           type="application/ld+json"
@@ -40,6 +55,7 @@ export default function RootLayout({ children }) {
         {children}
         <SiteFooter />
         <FloatingWhatsAppButton />
+        <GoogleAdsTracker />
       </body>
     </html>
   );

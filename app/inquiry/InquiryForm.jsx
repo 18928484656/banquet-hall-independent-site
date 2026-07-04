@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { AlertCircle, CheckCircle2, Mail, Loader2, MessageCircle, Send } from "lucide-react";
 import { company } from "../data/company";
+import { trackLeadSubmission } from "../lib/googleAds";
 
 const initialForm = {
   name: "",
@@ -128,6 +129,7 @@ export default function InquiryForm() {
         type: "success",
         message: "Submitted successfully. Our project consultant will contact you soon."
       });
+      trackLeadSubmission("standard_inquiry_form");
     } catch (error) {
       const needsManualContact =
         error.message === "EMAIL_NOT_CONFIGURED" || error.message === "EMAIL_SEND_FAILED";
