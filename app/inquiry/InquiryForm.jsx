@@ -276,7 +276,7 @@ export default function InquiryForm() {
                   className="mini-contact-button mini-contact-button-whatsapp"
                   href={company.whatsappLeadHref}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <MessageCircle size={16} />
                   WhatsApp

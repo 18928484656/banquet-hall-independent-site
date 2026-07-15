@@ -59,9 +59,10 @@ export function trackLeadSubmission(source = "inquiry_form") {
 }
 
 export function trackWhatsAppClick(source = "whatsapp_link") {
-  trackGoogleAdsEvent("whatsapp_click", {
-    event_category: "contact",
-    event_label: source,
+  trackGoogleAdsEvent("whatsapp_click_google_ads", {
+    event_category: "lead",
+    event_label: "banquet_hall_google_ads",
+    link_label: source,
     contact_method: "whatsapp"
   });
 

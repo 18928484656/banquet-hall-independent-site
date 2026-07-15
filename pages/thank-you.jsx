@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { ArrowRight, CheckCircle2, MessageCircle } from "lucide-react";
 import { company } from "../app/data/company";
-import { GOOGLE_ADS_ID, LEAD_CONVERSION_LABEL } from "../app/lib/googleAds";
+import { GOOGLE_ADS_ID, LEAD_CONVERSION_LABEL, trackWhatsAppClick } from "../app/lib/googleAds";
 
 export default function ThankYouPage() {
   return (
@@ -39,7 +39,13 @@ export default function ThankYouPage() {
             <img src={company.logo} alt="Dingsheng Banquet Hall Space Design logo" width="148" height="64" />
           </a>
           <div className="header-actions">
-            <a className="header-cta" href={company.whatsappHref}>
+            <a
+              className="header-cta"
+              href={company.whatsappHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => trackWhatsAppClick("thank_you_header_whatsapp")}
+            >
               <MessageCircle size={18} />
               WhatsApp
             </a>
@@ -58,7 +64,13 @@ export default function ThankYouPage() {
               quotation steps.
             </p>
             <div className="thank-you-actions">
-              <a className="btn btn-primary" href={company.whatsappLeadHref} target="_blank" rel="noreferrer">
+              <a
+                className="btn btn-primary"
+                href={company.whatsappLeadHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => trackWhatsAppClick("thank_you_whatsapp_now")}
+              >
                 <MessageCircle size={18} />
                 WhatsApp Now
               </a>

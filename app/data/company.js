@@ -1,3 +1,8 @@
+const whatsappNumber = "8618211506520";
+const whatsappMessage =
+  "Здравствуйте! Я из Google рекламы. Хочу получить бесплатный расчёт по дизайну и реновации банкетного зала.";
+const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
 export const company = {
   brandName: "DINGSHENG",
   logo: "/assets/dingsheng-logo.jpg",
@@ -8,9 +13,10 @@ export const company = {
   website: "https://venueredesign.com",
   domain: "venueredesign.com",
   whatsapp: "+86 18211506520",
-  whatsappHref: "https://wa.me/8618211506520",
-  whatsappLeadHref:
-    "https://wa.me/8618211506520?text=Hello%2C%20I%20am%20interested%20in%20your%20products.%20Please%20send%20me%20more%20details.",
+  whatsappNumber,
+  whatsappMessage,
+  whatsappHref: whatsappUrl,
+  whatsappLeadHref: whatsappUrl,
   email: "347748243@qq.com",
   mailto: "mailto:347748243@qq.com",
   wechat: "18211506520",

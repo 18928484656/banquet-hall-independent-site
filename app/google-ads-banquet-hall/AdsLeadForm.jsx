@@ -199,7 +199,7 @@ export default function AdsLeadForm({ compact = false, source = "google_ads_land
                 className="mini-contact-button mini-contact-button-whatsapp"
                 href={company.whatsappLeadHref}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <MessageCircle size={15} />
                 WhatsApp

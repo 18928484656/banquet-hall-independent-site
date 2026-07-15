@@ -123,7 +123,9 @@ export default async function ProjectDetailPage({ params }) {
           </div>
           <div className="story-actions">
             <a className="btn btn-primary" href="/inquiry">Request Similar Design <ArrowRight size={18} /></a>
-            <a className="btn btn-dark" href={company.whatsappHref}>WhatsApp Project Video</a>
+            <a className="btn btn-dark" href={company.whatsappHref} target="_blank" rel="noopener noreferrer">
+              WhatsApp Project Video
+            </a>
           </div>
         </div>
         <div className="project-story-video">

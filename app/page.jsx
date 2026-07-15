@@ -306,7 +306,7 @@ export default function HomePage() {
             will help you clarify the next design and quotation steps.
           </p>
           <div className="contact-lines">
-            <a href={company.whatsappHref}>
+            <a href={company.whatsappHref} target="_blank" rel="noopener noreferrer">
               <MessageCircle size={18} />
               {company.whatsapp}
             </a>

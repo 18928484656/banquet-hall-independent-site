@@ -22,7 +22,7 @@ export default function ContactPage() {
             you clarify design direction, scope and next quotation steps.
           </p>
           <div className="contact-info-stack">
-            <a href={company.whatsappHref}>
+            <a href={company.whatsappHref} target="_blank" rel="noopener noreferrer">
               <MessageCircle size={18} />
               WhatsApp: {company.whatsapp}
             </a>
@@ -64,7 +64,7 @@ export default function ContactPage() {
               <Navigation size={18} />
               Open in OpenStreetMap
             </a>
-            <a className="btn btn-dark" href={company.whatsappHref}>
+            <a className="btn btn-dark" href={company.whatsappHref} target="_blank" rel="noopener noreferrer">
               <MessageCircle size={18} />
               Confirm Visit
             </a>

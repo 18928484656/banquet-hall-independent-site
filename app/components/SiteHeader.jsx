@@ -68,7 +68,7 @@ export default function SiteHeader() {
       </nav>
       <div className="header-actions">
         <LanguageSwitcher />
-        <a className="header-cta" href={company.whatsappHref}>
+        <a className="header-cta" href={company.whatsappHref} target="_blank" rel="noopener noreferrer">
           <MessageCircle size={18} />
           WhatsApp
         </a>

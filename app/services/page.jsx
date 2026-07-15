@@ -66,7 +66,7 @@ export default function ServicesPage() {
           <p className="section-kicker">Need a Project Plan?</p>
           <h2>Send your venue size, country and project stage. We will help you clarify the scope.</h2>
         </div>
-        <a className="btn btn-primary" href={company.whatsappHref}>
+        <a className="btn btn-primary" href={company.whatsappHref} target="_blank" rel="noopener noreferrer">
           <MessageCircle size={18} />
           WhatsApp Consultant
         </a>

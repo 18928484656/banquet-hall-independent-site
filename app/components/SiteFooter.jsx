@@ -21,7 +21,7 @@ export default function SiteFooter() {
         <a href="/inquiry">Inquiry</a>
       </div>
       <div className="footer-contact">
-        <a href={company.whatsappHref}>
+        <a href={company.whatsappHref} target="_blank" rel="noopener noreferrer">
           <MessageCircle size={16} />
           WhatsApp: {company.whatsapp}
         </a>

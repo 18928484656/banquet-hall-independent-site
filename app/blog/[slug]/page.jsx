@@ -139,7 +139,7 @@ export default async function BlogArticlePage({ params }) {
           <div className="article-side-card">
             <strong>WhatsApp</strong>
             <p>Talk with {company.brandName} about banquet hall design, renovation or project delivery.</p>
-            <a className="btn btn-dark" href={company.whatsappHref}>
+            <a className="btn btn-dark" href={company.whatsappHref} target="_blank" rel="noopener noreferrer">
               <MessageCircle size={16} />
               WhatsApp Now
             </a>
