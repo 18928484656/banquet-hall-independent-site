@@ -4,8 +4,8 @@ import { useEffect, useMemo, useState } from "react";
 import { Check, ChevronDown, Globe2 } from "lucide-react";
 
 const languages = [
-  { code: "kk", short: "KK", label: "Kazakh", nativeLabel: "Қазақша", dir: "ltr" },
   { code: "ru", short: "RU", label: "Russian", nativeLabel: "Русский", dir: "ltr" },
+  { code: "kk", short: "KK", label: "Kazakh", nativeLabel: "Қазақша", dir: "ltr" },
   { code: "en", short: "EN", label: "English", nativeLabel: "English", dir: "ltr" },
   { code: "ms", short: "MS", label: "Malay", nativeLabel: "Bahasa Melayu", dir: "ltr" },
   { code: "uz", short: "UZ", label: "Central Asia", nativeLabel: "O'zbekcha", dir: "ltr" },
@@ -15,7 +15,7 @@ const languages = [
 ];
 
 const defaultLanguage = "kk";
-const defaultLanguageVersion = "kz-kk-2026-06-26";
+const defaultLanguageVersion = "kz-kk-ru-first-2026-07-23";
 
 function getCookieDomains() {
   if (typeof window === "undefined") return [""];

@@ -143,7 +143,7 @@ NameSilo DNS 推荐记录：
 - 曾短暂参考 `grammywedding.com` 做过首页编辑式改版，已按用户要求撤回；当前正式站为原首页版本，但保留语言、地图、询盘、视频、WhatsApp 等功能。
 - 顶部导航和超级菜单为黑金磨砂风格。
 - 已删除重复的主菜单 `Engineering` 和首页重复工程栏目。
-- 全站语言切换入口为 8 种：Қазақша、Русский、English、Bahasa Melayu、O'zbekcha、العربية、Español、中文。
+- 全站语言切换入口为 8 种：Русский、Қазақша、English、Bahasa Melayu、O'zbekcha、العربية、Español、中文。
 - 手机端语言菜单已优化：中文可见，菜单不溢出。
 - Google Translate 评分弹窗和原文提示已隐藏。
 - 语言菜单已加 `notranslate`，避免被 Google 翻译乱改。
@@ -206,8 +206,8 @@ app/components/LanguageSwitcher.jsx
 
 当前语言顺序：
 
-1. Қазақша
-2. Русский
+1. Русский
+2. Қазақша
 3. English
 4. Bahasa Melayu
 5. O'zbekcha
@@ -421,8 +421,8 @@ a60990a Optimize project case videos
 
 语言顺序必须保持：
 
-1. Қазақша
-2. Русский
+1. Русский
+2. Қазақша
 3. English
 4. Bahasa Melayu
 5. O'zbekcha
