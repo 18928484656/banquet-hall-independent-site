@@ -45,30 +45,36 @@ export default function RootLayout({ children }) {
               gtag('config', '${GOOGLE_ADS_ID}');
               window.gtag_report_conversion = function gtag_report_conversion(url, targetMode) {
                 var opened = false;
+                var pendingWindow = null;
+                if (targetMode === 'blank' && typeof(url) !== 'undefined') {
+                  pendingWindow = window.open('about:blank', '_blank');
+                }
                 var openDestination = function () {
                   if (typeof(url) === 'undefined' || opened) return;
                   opened = true;
                   if (targetMode === 'blank') {
-                    window.open(url, '_blank', 'noopener,noreferrer');
+                    if (pendingWindow && !pendingWindow.closed) {
+                      pendingWindow.location.href = url;
+                      try {
+                        pendingWindow.opener = null;
+                      } catch (error) {}
+                    } else {
+                      window.open(url, '_blank', 'noopener,noreferrer');
+                    }
                   } else {
                     window.location = url;
                   }
                 };
                 var callback = function () {
-                  if (targetMode !== 'blank') {
-                    openDestination();
-                  }
+                  openDestination();
                 };
                 if (typeof window.gtag === 'function') {
                   window.gtag('event', 'conversion', {
                     'send_to': '${GOOGLE_ADS_ID}/${WHATSAPP_CONVERSION_LABEL}',
-                    'event_callback': callback
+                    'event_callback': callback,
+                    'event_timeout': 500
                   });
-                  if (targetMode === 'blank') {
-                    openDestination();
-                  } else {
-                    window.setTimeout(openDestination, 400);
-                  }
+                  window.setTimeout(openDestination, 450);
                 } else {
                   openDestination();
                 }
