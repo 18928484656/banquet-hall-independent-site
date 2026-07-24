@@ -80,6 +80,30 @@ export default function RootLayout({ children }) {
                 }
                 return false;
               };
+              if (!window.__whatsappConversionListenerInstalled) {
+                window.__whatsappConversionListenerInstalled = true;
+                document.addEventListener('click', function handleWhatsAppConversionClick(event) {
+                  if (event.defaultPrevented || event.__whatsappConversionTracked) return;
+                  var target = event.target;
+                  var link = target && target.closest ? target.closest('a[href]') : null;
+                  if (!link) return;
+                  var href = link.href || link.getAttribute('href') || '';
+                  var isWhatsAppLink = href.indexOf('wa.me/') !== -1 ||
+                    href.indexOf('api.whatsapp.com') !== -1 ||
+                    href.indexOf('whatsapp.com') !== -1;
+                  if (!isWhatsAppLink) return;
+                  event.__whatsappConversionTracked = true;
+                  event.preventDefault();
+                  event.stopPropagation();
+                  if (typeof window.gtag_report_conversion === 'function') {
+                    window.gtag_report_conversion(href, link.target === '_blank' ? 'blank' : 'same');
+                  } else if (link.target === '_blank') {
+                    window.open(href, '_blank', 'noopener,noreferrer');
+                  } else {
+                    window.location.href = href;
+                  }
+                }, true);
+              }
             `
           }}
         />
