@@ -3,7 +3,7 @@ import SiteFooter from "./components/SiteFooter";
 import FloatingWhatsAppButton from "./components/FloatingWhatsAppButton";
 import GoogleAdsTracker from "./components/GoogleAdsTracker";
 import { company } from "./data/company";
-import { GOOGLE_ADS_ID } from "./lib/googleAds";
+import { GOOGLE_ADS_ID, WHATSAPP_CONVERSION_LABEL } from "./lib/googleAds";
 
 export const metadata = {
   metadataBase: new URL(company.website),
@@ -43,6 +43,37 @@ export default function RootLayout({ children }) {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', '${GOOGLE_ADS_ID}');
+              window.gtag_report_conversion = function gtag_report_conversion(url, targetMode) {
+                var opened = false;
+                var openDestination = function () {
+                  if (typeof(url) === 'undefined' || opened) return;
+                  opened = true;
+                  if (targetMode === 'blank') {
+                    window.open(url, '_blank', 'noopener,noreferrer');
+                  } else {
+                    window.location = url;
+                  }
+                };
+                var callback = function () {
+                  if (targetMode !== 'blank') {
+                    openDestination();
+                  }
+                };
+                if (typeof window.gtag === 'function') {
+                  window.gtag('event', 'conversion', {
+                    'send_to': '${GOOGLE_ADS_ID}/${WHATSAPP_CONVERSION_LABEL}',
+                    'event_callback': callback
+                  });
+                  if (targetMode === 'blank') {
+                    openDestination();
+                  } else {
+                    window.setTimeout(openDestination, 400);
+                  }
+                } else {
+                  openDestination();
+                }
+                return false;
+              };
             `
           }}
         />

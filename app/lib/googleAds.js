@@ -1,5 +1,6 @@
 export const GOOGLE_ADS_ID = "AW-18264996527";
 export const LEAD_CONVERSION_LABEL = "3A5zCJivxsocEK_1toVE";
+export const WHATSAPP_CONVERSION_LABEL = "ah5RCLS_3dUcEK_1toVE";
 
 const leadConversionLabel = process.env.NEXT_PUBLIC_GOOGLE_ADS_LEAD_CONVERSION_LABEL;
 const whatsappConversionLabel = process.env.NEXT_PUBLIC_GOOGLE_ADS_WHATSAPP_CONVERSION_LABEL;
@@ -66,9 +67,13 @@ export function trackWhatsAppClick(source = "whatsapp_link") {
     contact_method: "whatsapp"
   });
 
-  trackGoogleAdsConversion(whatsappConversionLabel, {
+  trackGoogleAdsConversion(whatsappConversionLabel || WHATSAPP_CONVERSION_LABEL, {
     value: 1.0,
     currency: "USD",
     event_label: source
   });
+}
+
+export function isWhatsAppUrl(url = "") {
+  return url.includes("wa.me/") || url.includes("api.whatsapp.com") || url.includes("whatsapp.com");
 }

@@ -1,23 +1,35 @@
 "use client";
 
 import { useEffect } from "react";
-import { trackWhatsAppClick } from "../lib/googleAds";
+import { isWhatsAppUrl } from "../lib/googleAds";
 
 export default function GoogleAdsTracker() {
   useEffect(() => {
     function handleDocumentClick(event) {
+      if (event.defaultPrevented || event.__whatsappConversionTracked) return;
+
       const link = event.target.closest?.("a[href]");
       if (!link) return;
 
-      const href = link.getAttribute("href") || "";
-      if (!href.includes("wa.me/")) return;
+      const href = link.href || link.getAttribute("href") || "";
+      if (!isWhatsAppUrl(href)) return;
 
-      const source =
-        link.getAttribute("aria-label") ||
-        link.textContent?.trim().replace(/\s+/g, " ") ||
-        "whatsapp_link";
+      event.__whatsappConversionTracked = true;
+      event.preventDefault();
+      event.stopPropagation();
 
-      trackWhatsAppClick(source);
+      const targetMode = link.target === "_blank" ? "blank" : "same";
+
+      if (typeof window.gtag_report_conversion === "function") {
+        window.gtag_report_conversion(href, targetMode);
+        return;
+      }
+
+      if (targetMode === "blank") {
+        window.open(href, "_blank", "noopener,noreferrer");
+      } else {
+        window.location.href = href;
+      }
     }
 
     document.addEventListener("click", handleDocumentClick, { capture: true });

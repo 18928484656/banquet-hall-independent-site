@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { ArrowRight, CheckCircle2, MessageCircle } from "lucide-react";
 import { company } from "../app/data/company";
-import { GOOGLE_ADS_ID, LEAD_CONVERSION_LABEL, trackWhatsAppClick } from "../app/lib/googleAds";
+import { GOOGLE_ADS_ID, LEAD_CONVERSION_LABEL, WHATSAPP_CONVERSION_LABEL } from "../app/lib/googleAds";
 
 export default function ThankYouPage() {
   return (
@@ -18,6 +18,37 @@ export default function ThankYouPage() {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', '${GOOGLE_ADS_ID}');
+              window.gtag_report_conversion = function gtag_report_conversion(url, targetMode) {
+                var opened = false;
+                var openDestination = function () {
+                  if (typeof(url) === 'undefined' || opened) return;
+                  opened = true;
+                  if (targetMode === 'blank') {
+                    window.open(url, '_blank', 'noopener,noreferrer');
+                  } else {
+                    window.location = url;
+                  }
+                };
+                var callback = function () {
+                  if (targetMode !== 'blank') {
+                    openDestination();
+                  }
+                };
+                if (typeof window.gtag === 'function') {
+                  window.gtag('event', 'conversion', {
+                    'send_to': '${GOOGLE_ADS_ID}/${WHATSAPP_CONVERSION_LABEL}',
+                    'event_callback': callback
+                  });
+                  if (targetMode === 'blank') {
+                    openDestination();
+                  } else {
+                    window.setTimeout(openDestination, 400);
+                  }
+                } else {
+                  openDestination();
+                }
+                return false;
+              };
             `
           }}
         />
@@ -44,7 +75,14 @@ export default function ThankYouPage() {
               href={company.whatsappHref}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={() => trackWhatsAppClick("thank_you_header_whatsapp")}
+              onClick={(event) => {
+                event.preventDefault();
+                if (typeof window.gtag_report_conversion === "function") {
+                  window.gtag_report_conversion(event.currentTarget.href, "blank");
+                } else {
+                  window.open(event.currentTarget.href, "_blank", "noopener,noreferrer");
+                }
+              }}
             >
               <MessageCircle size={18} />
               WhatsApp
@@ -69,7 +107,14 @@ export default function ThankYouPage() {
                 href={company.whatsappLeadHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={() => trackWhatsAppClick("thank_you_whatsapp_now")}
+                onClick={(event) => {
+                  event.preventDefault();
+                  if (typeof window.gtag_report_conversion === "function") {
+                    window.gtag_report_conversion(event.currentTarget.href, "blank");
+                  } else {
+                    window.open(event.currentTarget.href, "_blank", "noopener,noreferrer");
+                  }
+                }}
               >
                 <MessageCircle size={18} />
                 WhatsApp Now
