@@ -14,8 +14,8 @@ const languages = [
   { code: "zh-CN", short: "ZH", label: "Chinese", nativeLabel: "中文", dir: "ltr" }
 ];
 
-const defaultLanguage = "kk";
-const defaultLanguageVersion = "kz-kk-ru-first-2026-07-23";
+const defaultLanguage = "ru";
+const defaultLanguageVersion = "kz-ru-default-2026-07-25";
 
 function getCookieDomains() {
   if (typeof window === "undefined") return [""];

@@ -7,9 +7,9 @@ import { GOOGLE_ADS_ID, WHATSAPP_CONVERSION_LABEL } from "./lib/googleAds";
 
 export const metadata = {
   metadataBase: new URL(company.website),
-  title: "DINGSHENG | Қазақстандағы банкет залдарының дизайны және жаңартылуы",
+  title: "DINGSHENG | Дизайн и обновление банкетных залов в Казахстане",
   description:
-    "3D-дизайн, Қытайдан жеткізу, LED-экрандар, жарық, жиһаз және банкет залдары, мейрамханалар мен қонақүй иелері үшін құрылыс сүйемелдеуі."
+    "3D-дизайн, поставки из Китая, LED-экраны, свет, мебель и сопровождение строительства для владельцев банкетных залов, ресторанов и отелей."
 };
 
 export default function RootLayout({ children }) {
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html lang="kk">
+    <html lang="ru">
       <head>
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`} />
         <script
